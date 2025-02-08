@@ -1,3 +1,10 @@
 ---
 title: "Skills"
 ---
+
+# Technical
+
+* Python (advanced)
+* R (advanced)
+* PostgresSQL
+

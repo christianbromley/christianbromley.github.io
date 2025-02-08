@@ -1,3 +1,44 @@
 ---
-title: "Experience"
+title: "Professional Experience"
+format: html
+css: styles.css
 ---
+
+::: {.timeline}
+  
+::: {.timeline-item}
+**2023 - Present**  
+*Senior Computational Biologist*     
+**Owkin**  
+Developed clinical and multi-omics processing pipelines. Built machine learning models for drug positioning and target identification.
+:::
+
+::: {.timeline-item}
+**2021 - 2023**  
+*Bioinformatics Data Scientist*       
+**Benevolent AI**  
+Technical lead on multiple drug discovery programs leading the data ingestion, processing and modelling strategy for novel disease mechanism discovery and target identification.
+:::
+
+::: {.timeline-item}
+**2017 - 2021**  
+*Bioinformatics and Cancer Immunology PhD student*      
+**Cancer Research UK**  
+Analysed multi-omics oncology datasets to elucidate cancer inflammation and immune evasion mechanisms, as well as discovery biomarkers of response to immune checkpoint inhibitors.
+:::
+
+::: {.timeline-item}
+**2015 - 2017**     
+*Early Clinical Development Scientist and In Vitro/Vivo Biologist*    
+**AstraZeneca**     
+Planned and executed *in vitro* and *in vivo* studies to facilitate oncology drug discovery. Managed externally sponsored phase I/II basket trials as a member of the early clinical development team in addition to providing competitor intelligence/ disease landscaping.
+:::
+
+::: {.timeline-item}
+**2013 - 2014**     
+*Industrial Placement Student*     
+**GlaxoSmithKline**     
+Performed compound screening in B cell and dendritic cell assays contributing towards the candidate selection data packages for autoimmune diseases.
+:::
+
+:::

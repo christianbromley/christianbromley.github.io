@@ -2,11 +2,10 @@
 title: "Christian Bromley"
 ---
 
-This is a Quarto website for my CV.
 
-Testing...
 
 # Useful links
+
 * GH pages guide [here](https://quarto.org/docs/publishing/github-pages.html). 
 * venv guide [here](https://quarto.org/docs/projects/virtual-environments.html). 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+To learn more about Quarto websites visit <https://quarto.org/docs/websites>. 

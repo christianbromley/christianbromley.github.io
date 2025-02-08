@@ -19,6 +19,10 @@ website:
           file: skills.qmd
         - text: Education
           file: education.qmd
+      - section: Blog
+        contents:
+        - href: blog_building_site.qmd
+          text: Building a website for your CV
     tools:
       - icon: linkedin
         href: https://www.linkedin.com/in/christian-bromley-8ab99475/

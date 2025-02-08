@@ -1,1 +1,8 @@
 /* css styles */
+.timeline-item {
+    background: #f4f4f4;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  }
