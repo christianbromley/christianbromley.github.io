@@ -11,18 +11,18 @@ website:
     contents:
       - section: CV
         contents:
-        - href: index.qmd
+        - href: about.qmd
           text: Home
         - text: Experience
           file: experience.qmd
         - text: Skills
           file: skills.qmd
-        - text: Education
-          file: education.qmd
+        - text: Publications and achievments
+          file: publications.qmd
       - section: Blog
         contents:
-        - href: blog_building_site.qmd
-          text: Building a website for your CV
+        # - href: blog_building_site.qmd
+        #   text: Building a website for your CV
     tools:
       - icon: linkedin
         href: https://www.linkedin.com/in/christian-bromley-8ab99475/

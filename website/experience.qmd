@@ -41,4 +41,18 @@ Planned and executed *in vitro* and *in vivo* studies to facilitate oncology dru
 Performed compound screening in B cell and dendritic cell assays contributing towards the candidate selection data packages for autoimmune diseases.
 :::
 
+::: {.timeline-item}
+**2011 - 2015**     
+*Biomedical Science Student, First Class Degree*     
+**University of Sheffield**     
+Physiology, cell biology, developmental biology, neuroscience, anatomy, biochemistry and more.
+:::
+
+::: {.timeline-item}
+**2004 - 2011**     
+*School Student*     
+**Wirral Grammer School**     
+Maths, Biology, Chemistry
+:::
+
 :::
