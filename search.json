@@ -1,20 +1,60 @@
 [
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
+    "objectID": "blog_building_site.html",
+    "href": "blog_building_site.html",
+    "title": "Building a personal website for your CV",
     "section": "",
-    "text": "About this site"
+    "text": "The internet is not short of these kind of blog posts."
+  },
+  {
+    "objectID": "publications.html",
+    "href": "publications.html",
+    "title": "Publications and other achievments",
+    "section": "",
+    "text": "Publications\n\n\n\nConferences\nHere’s me getting a poster award from Nobel prize winner Ben Feringa at the International PhD Students in Cancer Conference 2019.",
+    "crumbs": [
+      "CV",
+      "Publications and achievments"
+    ]
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Christian Bromley",
     "section": "",
-    "text": "This is a Quarto website for my CV.\nTesting…\n\nUseful links\n\nGH pages guide here.\nvenv guide here. To learn more about Quarto websites visit https://quarto.org/docs/websites.",
+    "text": "Useful links\n\nGH pages guide here.\nvenv guide here. To learn more about Quarto websites visit https://quarto.org/docs/websites."
+  },
+  {
+    "objectID": "experience.html",
+    "href": "experience.html",
+    "title": "Professional Experience",
+    "section": "",
+    "text": "2023 - Present\nSenior Computational Biologist\nOwkin\nDeveloped clinical and multi-omics processing pipelines. Built machine learning models for drug positioning and target identification.\n\n\n2021 - 2023\nBioinformatics Data Scientist\nBenevolent AI\nTechnical lead on multiple drug discovery programs leading the data ingestion, processing and modelling strategy for novel disease mechanism discovery and target identification.\n\n\n2017 - 2021\nBioinformatics and Cancer Immunology PhD student\nCancer Research UK\nAnalysed multi-omics oncology datasets to elucidate cancer inflammation and immune evasion mechanisms, as well as discovery biomarkers of response to immune checkpoint inhibitors.\n\n\n2015 - 2017\nEarly Clinical Development Scientist and In Vitro/Vivo Biologist\nAstraZeneca\nPlanned and executed in vitro and in vivo studies to facilitate oncology drug discovery. Managed externally sponsored phase I/II basket trials as a member of the early clinical development team in addition to providing competitor intelligence/ disease landscaping.\n\n\n2013 - 2014\nIndustrial Placement Student\nGlaxoSmithKline\nPerformed compound screening in B cell and dendritic cell assays contributing towards the candidate selection data packages for autoimmune diseases.\n\n\n2011 - 2015\nBiomedical Science Student, First Class Degree\nUniversity of Sheffield\nPhysiology, cell biology, developmental biology, neuroscience, anatomy, biochemistry and more.\n\n\n2004 - 2011\nSchool Student\nWirral Grammer School\nMaths, Biology, Chemistry",
+    "crumbs": [
+      "CV",
+      "Experience"
+    ]
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "A bit about me…",
+    "section": "",
+    "text": "Background and career so far\nI’m a computational biology, data scientist and bioinformatician living and working in London.\nI grew up on the Wirral, which in case you’ve never heard of it is right about here…\n\n\nHere’s a bar chart summarising my life and career to date:\n\nimport seaborn as sns\nimport matplotlib.pyplot as plt\nimport pandas as pd\n\n# create data\nlife = pd.DataFrame({\n    'life_stage': [\"Growing up\", \"Sheffield University\", \"GSK industrial placement\", \"Sheffield University part 2\", \"AstraZeneca Alderley Edge\", \"AstraZeneca Cambridge\", \"Manchester University/CRUK PhD\", \"Benevolent AI\", \"Owkin\"],\n    'role': [\n        \"Messing around\", \"Biomedical science\", \"In vitro immunology\", \"Biomedical science\", \"Animal technician\", \"In vitro oncology & early clinical development\", \"Computational biologist & bioinformatician in cancer immunology\", \"Data science\", \"Data science\"\n    ],\n    'months': [(18*12)+2, 2*12, 1*12,1*12, 8, 2*8, (3*12)+4, 20, 20],\n    'me': ['My life']*9\n})\n\nlife.loc[:, 'years'] = life['months'] / 12\nlife['life_stage'] = pd.Categorical(life['life_stage'], categories=[\"Growing up\", \"Sheffield University\", \"GSK industrial placement\", \"Sheffield University part 2\", \"AstraZeneca Alderley Edge\", \"AstraZeneca Cambridge\", \"Manchester University/CRUK PhD\", \"Benevolent AI\", \"Owkin\"], ordered=True)\n\n# Create the plot\nimport pandas as pd\nimport matplotlib.pyplot as plt\n\n# Sample Data (Replace this with your actual DataFrame)\n# Assuming 'life' already exists and has columns 'months', 'me', and 'life_stage'\nlife['years'] = life['months'] / 12  # Convert months to years\n\n# Pivot data for stacking\nlife_pivot = life.pivot_table(index='me', columns='life_stage', values='years', aggfunc='sum')\n\n# Plot stacked bar chart\nfig, ax = plt.subplots(figsize=(8, 6))\nlife_pivot.plot(kind='barh', stacked=True, ax=ax, edgecolor='black')\n\n# Customizing the plot to match ggplot2\nax.set_xlabel('Years')\nax.set_ylabel('')\nax.set_xlim(0, 32)\nax.set_xticks([0, 10, 20, 30])\nax.invert_yaxis()  # Flip to match coord_flip()\n\n# Remove spines for minimal theme\nax.spines['top'].set_visible(False)\nax.spines['right'].set_visible(False)\nax.spines['left'].set_visible(False)\n\n# Add legend and grid\nax.legend(title='Life Stage', bbox_to_anchor=(1, 1))\nax.grid(axis='x', linestyle='--', alpha=0.7)\n\nplt.tight_layout()\nplt.show()\n\n/var/folders/p1/91bjgvms5h3c03fp_lkjdsyw0000gp/T/ipykernel_69007/954472691.py:27: FutureWarning: The default value of observed=False is deprecated and will change to observed=True in a future version of pandas. Specify observed=False to silence this warning and retain the current behavior\n  life_pivot = life.pivot_table(index='me', columns='life_stage', values='years', aggfunc='sum')\n\n\n\n\n\n\n\n\n\n\n\nUseful links for creating this website page\n\nGH pages guide here.\nvenv guide here. To learn more about Quarto websites visit https://quarto.org/docs/websites.",
     "crumbs": [
       "CV",
       "Home"
+    ]
+  },
+  {
+    "objectID": "skills.html",
+    "href": "skills.html",
+    "title": "Skills",
+    "section": "",
+    "text": "# Technical\n\nPython (advanced)\nR (advanced)\nPostgresSQL",
+    "crumbs": [
+      "CV",
+      "Skills"
     ]
   }
 ]

@@ -1,23 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://christianbromley.github.io/skills.html</loc>
-    <lastmod>2025-02-05T09:18:55.254Z</lastmod>
-  </url>
-  <url>
-    <loc>https://christianbromley.github.io/about.html</loc>
-    <lastmod>2025-02-05T09:18:55.253Z</lastmod>
-  </url>
-  <url>
-    <loc>https://christianbromley.github.io/index.html</loc>
-    <lastmod>2025-02-05T09:21:53.808Z</lastmod>
-  </url>
-  <url>
-    <loc>https://christianbromley.github.io/experience.html</loc>
-    <lastmod>2025-02-05T09:18:55.254Z</lastmod>
+    <loc>https://christianbromley.github.io/blog_building_site.html</loc>
+    <lastmod>2025-02-07T17:17:35.458Z</lastmod>
   </url>
   <url>
     <loc>https://christianbromley.github.io/education.html</loc>
     <lastmod>2025-02-05T09:18:55.253Z</lastmod>
+  </url>
+  <url>
+    <loc>https://christianbromley.github.io/publications.html</loc>
+    <lastmod>2025-03-02T18:16:05.888Z</lastmod>
+  </url>
+  <url>
+    <loc>https://christianbromley.github.io/index.html</loc>
+    <lastmod>2025-02-08T14:24:54.779Z</lastmod>
+  </url>
+  <url>
+    <loc>https://christianbromley.github.io/experience.html</loc>
+    <lastmod>2025-03-02T18:12:16.887Z</lastmod>
+  </url>
+  <url>
+    <loc>https://christianbromley.github.io/about.html</loc>
+    <lastmod>2025-03-02T18:12:13.303Z</lastmod>
+  </url>
+  <url>
+    <loc>https://christianbromley.github.io/skills.html</loc>
+    <lastmod>2025-02-08T14:24:49.517Z</lastmod>
   </url>
 </urlset>
