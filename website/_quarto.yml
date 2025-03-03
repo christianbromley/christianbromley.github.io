@@ -12,7 +12,7 @@ website:
       - section: CV
         contents:
         - href: about.qmd
-          text: Home
+          text: About me
         - text: Experience
           file: experience.qmd
         - text: Skills

@@ -1,0 +1,37 @@
+---
+title: "Publications and other achievments"
+---
+
+# Publications
+
+[NKG2D Fine-Tunes the Local Inflammatory Response in Colorectal Cancer](https://doi.org/10.3390/cancers15061792)
+
+[Chemotherapy-induced COX-2 upregulation by cancer cells defines their inflammatory properties and limits the efficacy of chemoimmunotherapy combinations](https://www.nature.com/articles/s41467-022-29606-9)
+
+[Tissue-resident FOLR2+ macrophages associate with CD8+ T cell infiltration in human breast cancer](https://doi.org/10.1016/j.cell.2022.02.021)
+
+* In this study I carried out the human 'omics analysis. 
+* I characterised the positive prognostic potential of FOLR2+ tissue resident macrophages in breast cancer. 
+
+[RNA sensing via the RIG‐I‐like receptor LGP2 is essential for the induction of a type I IFN response in ADAR1 deficiency](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8922249/)
+
+[Anti-inflammatory drugs remodel the tumor immune environment to enhance immune checkpoint blockade efficacy](https://doi.org/10.1158/2159-8290.CD-20-1815)
+
+[Antagonistic Inflammatory Phenotypes Dictate Tumor Fate and Response to Immune Checkpoint Blockade](https://doi.org/10.1016/j.immuni.2020.10.020)
+<img src="files/bonavita.png" style="width:50%">
+
+* This study formed a large part of my PhD in which I translated critical findings from syngeneic mouse models into human. 
+* I performed all of the 'omics analysis in this paper identifying a Cyclooxygenase-2 activity related gene signature that was associated with patient prognosis and response to checkpoint inhibitors. 
+
+[DNGR-1 limits Flt3L-mediated antitumor immunity by restraining tumor-infiltrating type I conventional dendritic cells](http://dx.doi.org/10.1136/jitc-2020-002054)
+
+
+# Conferences
+
+Last year I attended the Spatial Biology UK 2024 conference in London on behalf of the MOSAIC research team at Owkin. Here I am with our poster.
+
+<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7178680497093398529" height="1070" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
+
+Here's me getting a poster award from Nobel prize winner [Ben Feringa](https://en.wikipedia.org/wiki/Ben_Feringa) at the International PhD Students in Cancer Conference 2019.
+
+<img src="files/IPSCC2.JPG" style="width:50%">

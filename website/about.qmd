@@ -1,5 +1,8 @@
 ---
 title: "A bit about me..."
+format:
+  html:
+    code-fold: true
 ---
 
 # Background and career so far
