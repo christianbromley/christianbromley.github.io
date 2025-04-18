@@ -4,7 +4,25 @@ title: "Skills"
 
 # Technical
 
-* Python (advanced)
-* R (advanced)
-* PostgresSQL
+* Python (advanced) - sklearn, pytorch, tensorflow, scipy, numpy, pandas, RDkit
+* R (advanced) - tidyverse
+* bash 
+* git 
+* Docker 
+* Sagemaker 
+* Redshift 
+* S3 
+* PostgresSQL 
+* Cypher 
+* Databricks 
+* Neo4J 
+* Kubeflow 
+* Shiny
+
+# Leadership
+* Tech lead on 2 internal target discovery programmes at Benevolent AI, and 1 external programme with AstraZeneca. 
+* Line managed 2 interns 
+    - one project on multi'omics integration with Benevolent AI.
+    - one project on machine learning for drug positioning at Owkin.
+* Managed 12 successful A level student projects across 4 years with Manchester Access Programme.
 

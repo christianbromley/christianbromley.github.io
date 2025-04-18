@@ -15,10 +15,12 @@ website:
           text: About me
         - text: Experience
           file: experience.qmd
+        - text: Achievements
+          file: publications.qmd
         - text: Skills
           file: skills.qmd
-        - text: Publications and achievments
-          file: publications.qmd
+        - text: Education
+          file: education.qmd
       - section: Blog
         contents:
         # - href: blog_building_site.qmd

@@ -20,47 +20,48 @@ css: styles.css
 **2017 - 2021**  
 *PhD in Bioinformatics and Computational Biology*       
 **University of Manchester**  
-- transcriptomics
-- genomics
-- single cell 'omics
-- multiplex immunofluorescence
-- prognostic modelling
-- machine learning
-- basic immunology
-- cancer immunotherapy
-- inflammation
-- cell culture and genetic knockout
+- transcriptomics 
+- genomics 
+- single cell 'omics 
+- multiplex immunofluorescence 
+- prognostic modelling 
+- machine learning 
+- basic immunology 
+- cancer immunotherapy 
+- inflammation 
+- cell culture and genetic knockout 
+- spatial 'omics and image analysis 
 :::
 
 ::: {.timeline-item}
 **2019**  
 *Distinction in Intro to Bioinformatics Masters module*       
 **University of Manchester**  
-- sequence alignment
-- data processing
-- 'omics technologies
+- sequence alignment 
+- data processing 
+- 'omics technologies 
 :::
 
 ::: {.timeline-item}
 **2011 - 2015**  
 *First class degree in Biomedical Science with Industrial Experience*       
 **University of Sheffield**  
-- pharmacology
-- cell biology
-- physiology
-- developmental biology
-- neuroscience
-- anatomy
-- pathology
+- pharmacology 
+- cell biology 
+- physiology 
+- developmental biology 
+- neuroscience 
+- anatomy 
+- pathology 
 :::
 
 ::: {.timeline-item}
 **2004-2011**  
 *A levels*       
 **School**  
-- A* Maths
-- A Biology
-- A Chemistry
+- A* Maths 
+- A Biology 
+- A Chemistry 
 :::
 
 :::
