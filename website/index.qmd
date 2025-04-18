@@ -1,10 +1,75 @@
 ---
-title: "Christian Bromley"
+title: "A bit about me..."
+format:
+  html:
+    code-fold: true
 ---
 
+# Background and career so far
+I'm a computational biology, data scientist and bioinformatician living and working in London.
+
+I grew up on the Wirral, which in case you've never heard of it is right about here...
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d152483.47756872556!2d-3.2234090053387896!3d53.33333247961921!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487ad819e78b6473%3A0x5855af619d4d5206!2sWirral%20Peninsula!5e0!3m2!1sen!2suk!4v1612130774206!5m2!1sen!2suk" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+
+Here's a bar chart summarising my life and career to date:
+
+```{python}
+import seaborn as sns
+import matplotlib.pyplot as plt
+import pandas as pd
+
+# create data
+life = pd.DataFrame({
+    'life_stage': ["Growing up", "Sheffield University", "GSK industrial placement", "Sheffield University part 2", "AstraZeneca Alderley Edge", "AstraZeneca Cambridge", "Manchester University/CRUK PhD", "Benevolent AI", "Owkin"],
+    'role': [
+        "Messing around", "Biomedical science", "In vitro immunology", "Biomedical science", "Animal technician", "In vitro oncology & early clinical development", "Computational biologist & bioinformatician in cancer immunology", "Data science", "Data science"
+    ],
+    'months': [(18*12)+2, 2*12, 1*12,1*12, 8, 2*8, (3*12)+4, 20, 20],
+    'me': ['My life']*9
+})
+
+life.loc[:, 'years'] = life['months'] / 12
+life['life_stage'] = pd.Categorical(life['life_stage'], categories=["Growing up", "Sheffield University", "GSK industrial placement", "Sheffield University part 2", "AstraZeneca Alderley Edge", "AstraZeneca Cambridge", "Manchester University/CRUK PhD", "Benevolent AI", "Owkin"], ordered=True)
+
+# Create the plot
+import pandas as pd
+import matplotlib.pyplot as plt
+
+# Sample Data (Replace this with your actual DataFrame)
+# Assuming 'life' already exists and has columns 'months', 'me', and 'life_stage'
+life['years'] = life['months'] / 12  # Convert months to years
+
+# Pivot data for stacking
+life_pivot = life.pivot_table(index='me', columns='life_stage', values='years', aggfunc='sum')
+
+# Plot stacked bar chart
+fig, ax = plt.subplots(figsize=(8, 6))
+life_pivot.plot(kind='barh', stacked=True, ax=ax, edgecolor='black')
+
+# Customizing the plot to match ggplot2
+ax.set_xlabel('Years')
+ax.set_ylabel('')
+ax.set_xlim(0, 32)
+ax.set_xticks([0, 10, 20, 30])
+ax.invert_yaxis()  # Flip to match coord_flip()
+
+# Remove spines for minimal theme
+ax.spines['top'].set_visible(False)
+ax.spines['right'].set_visible(False)
+ax.spines['left'].set_visible(False)
+
+# Add legend and grid
+ax.legend(title='Life Stage', bbox_to_anchor=(1, 1))
+ax.grid(axis='x', linestyle='--', alpha=0.7)
+
+plt.tight_layout()
+plt.show()
 
 
-# Useful links
+```
+
+# Useful links for creating this website page
 
 * GH pages guide [here](https://quarto.org/docs/publishing/github-pages.html). 
 * venv guide [here](https://quarto.org/docs/projects/virtual-environments.html). 
