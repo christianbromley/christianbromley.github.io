@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Christian Bromley</title>
+<title>A bit about me… – Christian Bromley</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -19,6 +19,40 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -175,7 +209,8 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#useful-links" id="toc-useful-links" class="nav-link active" data-scroll-target="#useful-links">Useful links</a></li>
+  <li><a href="#background-and-career-so-far" id="toc-background-and-career-so-far" class="nav-link active" data-scroll-target="#background-and-career-so-far">Background and career so far</a></li>
+  <li><a href="#useful-links-for-creating-this-website-page" id="toc-useful-links-for-creating-this-website-page" class="nav-link" data-scroll-target="#useful-links-for-creating-this-website-page">Useful links for creating this website page</a></li>
   </ul>
 </nav>
     </div>
@@ -184,7 +219,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Christian Bromley</h1>
+<h1 class="title">A bit about me…</h1>
 </div>
 
 
@@ -201,8 +236,82 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="useful-links" class="level1">
-<h1>Useful links</h1>
+<section id="background-and-career-so-far" class="level1">
+<h1>Background and career so far</h1>
+<p>I’m a computational biology, data scientist and bioinformatician living and working in London.</p>
+<p>I grew up on the Wirral, which in case you’ve never heard of it is right about here…</p>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d152483.47756872556!2d-3.2234090053387896!3d53.33333247961921!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487ad819e78b6473%3A0x5855af619d4d5206!2sWirral%20Peninsula!5e0!3m2!1sen!2suk!4v1612130774206!5m2!1sen!2suk" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0">
+</iframe>
+<p>Here’s a bar chart summarising my life and career to date:</p>
+<div id="ba2d2a2c" class="cell" data-execution_count="1">
+<details class="code-fold">
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> seaborn <span class="im">as</span> sns</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="co"># create data</span></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>life <span class="op">=</span> pd.DataFrame({</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>    <span class="st">'life_stage'</span>: [<span class="st">"Growing up"</span>, <span class="st">"Sheffield University"</span>, <span class="st">"GSK industrial placement"</span>, <span class="st">"Sheffield University part 2"</span>, <span class="st">"AstraZeneca Alderley Edge"</span>, <span class="st">"AstraZeneca Cambridge"</span>, <span class="st">"Manchester University/CRUK PhD"</span>, <span class="st">"Benevolent AI"</span>, <span class="st">"Owkin"</span>],</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>    <span class="st">'role'</span>: [</span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>        <span class="st">"Messing around"</span>, <span class="st">"Biomedical science"</span>, <span class="st">"In vitro immunology"</span>, <span class="st">"Biomedical science"</span>, <span class="st">"Animal technician"</span>, <span class="st">"In vitro oncology &amp; early clinical development"</span>, <span class="st">"Computational biologist &amp; bioinformatician in cancer immunology"</span>, <span class="st">"Data science"</span>, <span class="st">"Data science"</span></span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>    ],</span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>    <span class="st">'months'</span>: [(<span class="dv">18</span><span class="op">*</span><span class="dv">12</span>)<span class="op">+</span><span class="dv">2</span>, <span class="dv">2</span><span class="op">*</span><span class="dv">12</span>, <span class="dv">1</span><span class="op">*</span><span class="dv">12</span>,<span class="dv">1</span><span class="op">*</span><span class="dv">12</span>, <span class="dv">8</span>, <span class="dv">2</span><span class="op">*</span><span class="dv">8</span>, (<span class="dv">3</span><span class="op">*</span><span class="dv">12</span>)<span class="op">+</span><span class="dv">4</span>, <span class="dv">20</span>, <span class="dv">20</span>],</span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>    <span class="st">'me'</span>: [<span class="st">'My life'</span>]<span class="op">*</span><span class="dv">9</span></span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>})</span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a>life.loc[:, <span class="st">'years'</span>] <span class="op">=</span> life[<span class="st">'months'</span>] <span class="op">/</span> <span class="dv">12</span></span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a>life[<span class="st">'life_stage'</span>] <span class="op">=</span> pd.Categorical(life[<span class="st">'life_stage'</span>], categories<span class="op">=</span>[<span class="st">"Growing up"</span>, <span class="st">"Sheffield University"</span>, <span class="st">"GSK industrial placement"</span>, <span class="st">"Sheffield University part 2"</span>, <span class="st">"AstraZeneca Alderley Edge"</span>, <span class="st">"AstraZeneca Cambridge"</span>, <span class="st">"Manchester University/CRUK PhD"</span>, <span class="st">"Benevolent AI"</span>, <span class="st">"Owkin"</span>], ordered<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a><span class="co"># Create the plot</span></span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
+<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a><span class="co"># Sample Data (Replace this with your actual DataFrame)</span></span>
+<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a><span class="co"># Assuming 'life' already exists and has columns 'months', 'me', and 'life_stage'</span></span>
+<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a>life[<span class="st">'years'</span>] <span class="op">=</span> life[<span class="st">'months'</span>] <span class="op">/</span> <span class="dv">12</span>  <span class="co"># Convert months to years</span></span>
+<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a><span class="co"># Pivot data for stacking</span></span>
+<span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a>life_pivot <span class="op">=</span> life.pivot_table(index<span class="op">=</span><span class="st">'me'</span>, columns<span class="op">=</span><span class="st">'life_stage'</span>, values<span class="op">=</span><span class="st">'years'</span>, aggfunc<span class="op">=</span><span class="st">'sum'</span>)</span>
+<span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a><span class="co"># Plot stacked bar chart</span></span>
+<span id="cb1-30"><a href="#cb1-30" aria-hidden="true" tabindex="-1"></a>fig, ax <span class="op">=</span> plt.subplots(figsize<span class="op">=</span>(<span class="dv">8</span>, <span class="dv">6</span>))</span>
+<span id="cb1-31"><a href="#cb1-31" aria-hidden="true" tabindex="-1"></a>life_pivot.plot(kind<span class="op">=</span><span class="st">'barh'</span>, stacked<span class="op">=</span><span class="va">True</span>, ax<span class="op">=</span>ax, edgecolor<span class="op">=</span><span class="st">'black'</span>)</span>
+<span id="cb1-32"><a href="#cb1-32" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-33"><a href="#cb1-33" aria-hidden="true" tabindex="-1"></a><span class="co"># Customizing the plot to match ggplot2</span></span>
+<span id="cb1-34"><a href="#cb1-34" aria-hidden="true" tabindex="-1"></a>ax.set_xlabel(<span class="st">'Years'</span>)</span>
+<span id="cb1-35"><a href="#cb1-35" aria-hidden="true" tabindex="-1"></a>ax.set_ylabel(<span class="st">''</span>)</span>
+<span id="cb1-36"><a href="#cb1-36" aria-hidden="true" tabindex="-1"></a>ax.set_xlim(<span class="dv">0</span>, <span class="dv">32</span>)</span>
+<span id="cb1-37"><a href="#cb1-37" aria-hidden="true" tabindex="-1"></a>ax.set_xticks([<span class="dv">0</span>, <span class="dv">10</span>, <span class="dv">20</span>, <span class="dv">30</span>])</span>
+<span id="cb1-38"><a href="#cb1-38" aria-hidden="true" tabindex="-1"></a>ax.invert_yaxis()  <span class="co"># Flip to match coord_flip()</span></span>
+<span id="cb1-39"><a href="#cb1-39" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-40"><a href="#cb1-40" aria-hidden="true" tabindex="-1"></a><span class="co"># Remove spines for minimal theme</span></span>
+<span id="cb1-41"><a href="#cb1-41" aria-hidden="true" tabindex="-1"></a>ax.spines[<span class="st">'top'</span>].set_visible(<span class="va">False</span>)</span>
+<span id="cb1-42"><a href="#cb1-42" aria-hidden="true" tabindex="-1"></a>ax.spines[<span class="st">'right'</span>].set_visible(<span class="va">False</span>)</span>
+<span id="cb1-43"><a href="#cb1-43" aria-hidden="true" tabindex="-1"></a>ax.spines[<span class="st">'left'</span>].set_visible(<span class="va">False</span>)</span>
+<span id="cb1-44"><a href="#cb1-44" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-45"><a href="#cb1-45" aria-hidden="true" tabindex="-1"></a><span class="co"># Add legend and grid</span></span>
+<span id="cb1-46"><a href="#cb1-46" aria-hidden="true" tabindex="-1"></a>ax.legend(title<span class="op">=</span><span class="st">'Life Stage'</span>, bbox_to_anchor<span class="op">=</span>(<span class="dv">1</span>, <span class="dv">1</span>))</span>
+<span id="cb1-47"><a href="#cb1-47" aria-hidden="true" tabindex="-1"></a>ax.grid(axis<span class="op">=</span><span class="st">'x'</span>, linestyle<span class="op">=</span><span class="st">'--'</span>, alpha<span class="op">=</span><span class="fl">0.7</span>)</span>
+<span id="cb1-48"><a href="#cb1-48" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-49"><a href="#cb1-49" aria-hidden="true" tabindex="-1"></a>plt.tight_layout()</span>
+<span id="cb1-50"><a href="#cb1-50" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output cell-output-stderr">
+<pre><code>/var/folders/p1/91bjgvms5h3c03fp_lkjdsyw0000gp/T/ipykernel_72355/954472691.py:27: FutureWarning: The default value of observed=False is deprecated and will change to observed=True in a future version of pandas. Specify observed=False to silence this warning and retain the current behavior
+  life_pivot = life.pivot_table(index='me', columns='life_stage', values='years', aggfunc='sum')</code></pre>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="index_files/figure-html/cell-2-output-2.png" width="757" height="566" class="figure-img"></p>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="useful-links-for-creating-this-website-page" class="level1">
+<h1>Useful links for creating this website page</h1>
 <ul>
 <li>GH pages guide <a href="https://quarto.org/docs/publishing/github-pages.html">here</a>.</li>
 <li>venv guide <a href="https://quarto.org/docs/projects/virtual-environments.html">here</a>. To learn more about Quarto websites visit <a href="https://quarto.org/docs/websites" class="uri">https://quarto.org/docs/websites</a>.</li>
