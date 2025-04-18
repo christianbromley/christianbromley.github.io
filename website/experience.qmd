@@ -10,7 +10,8 @@ css: styles.css
 **2023 - Present**  
 *Senior Computational Biologist*     
 **Owkin**  
-Developed clinical and multi-omics processing pipelines. Built machine learning models for drug positioning and target identification.
+Built end-to-end machine learning applications for target discovery, drug positioning and biomarker ID.
+Developed clinical and multi-omics data processing pipelines that have been applied to more than 1500 patients.
 :::
 
 ::: {.timeline-item}
@@ -28,10 +29,19 @@ Analysed multi-omics oncology datasets to elucidate cancer inflammation and immu
 :::
 
 ::: {.timeline-item}
+**2017 - 2021**  
+*Scientific Leader*      
+**Manchester Access Programme**  
+Managed, tutored and guided A-level students through scientific research projects.
+:::
+
+::: {.timeline-item}
 **2015 - 2017**     
 *Early Clinical Development Scientist and In Vitro/Vivo Biologist*    
 **AstraZeneca**     
-Planned and executed *in vitro* and *in vivo* studies to facilitate oncology drug discovery. Managed externally sponsored phase I/II basket trials as a member of the early clinical development team in addition to providing competitor intelligence/ disease landscaping.
+Planned and executed *in vitro* and *in vivo* studies to facilitate oncology drug discovery. 
+Managed externally sponsored phase I/II basket trials as a member of the early clinical development team.
+Provided competitor intelligence/ disease landscaping.
 :::
 
 ::: {.timeline-item}
