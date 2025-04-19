@@ -9,6 +9,18 @@ css: styles.css
 # Courses
 
 ::: {.timeline-item}
+**2025**  
+*Deep Learning Specialization*       
+**Coursera**  
+:::
+
+::: {.timeline-item}
+**2025**  
+*Agents*       
+**Hugging Face**  
+:::
+
+::: {.timeline-item}
 **2023**  
 *Machine Learning Specialization*       
 **Coursera**  
