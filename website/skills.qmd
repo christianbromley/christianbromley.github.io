@@ -20,7 +20,7 @@ title: "Skills"
 * Shiny
 
 # Leadership 
-* 
+
 * Tech lead on 2 internal target discovery programmes at Benevolent AI, and 1 external programme with AstraZeneca. 
 * Line managed 2 interns 
     - one project on multi'omics integration with Benevolent AI.
