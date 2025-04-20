@@ -7,8 +7,6 @@ format:
 
 I'm a data scientist, computational biologist and bioinformatician living and working in London.
 
-
-
 Here's a bar chart summarising my life and career to date:
 
 ```{python}
