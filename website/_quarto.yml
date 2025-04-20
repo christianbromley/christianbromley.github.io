@@ -6,7 +6,7 @@ website:
   repo-url: https://github.com/christianbromley/christianbromley.github.io
   sidebar:
     style: docked
-    background: black
+    #background: black
     search: true
     contents:
       - section: CV
@@ -36,8 +36,8 @@ website:
 format:
   html:
     theme:
-      - cosmo
-      - brand
+      - minty
+      # - brand
     css: styles.css
     toc: true
 

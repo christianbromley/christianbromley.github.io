@@ -37,7 +37,7 @@ import matplotlib.pyplot as plt
 life['years'] = life['months'] / 12  # Convert months to years
 
 # Pivot data for stacking
-life_pivot = life.pivot_table(index='me', columns='life_stage', values='years', aggfunc='sum')
+life_pivot = life.pivot_table(index='me', columns='life_stage', values='years', aggfunc='sum', observed=False)
 
 # Plot stacked bar chart
 fig, ax = plt.subplots(figsize=(8, 5))

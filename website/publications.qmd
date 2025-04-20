@@ -1,7 +1,8 @@
 ---
 title: "Achievements"
 ---
-# Industry achievements 
+
+# Industry achievements 
 
 ## Owkin 
 * Developed and maintained 3 Snakemake pipelines that have been used to process multimodal data from >1500 patients from MOSAIC. 
@@ -81,18 +82,20 @@ Last year I attended the Spatial Biology UK 2024 conference in London on behalf 
 :::
 
 ::: {.timeline-item}
-**2022**
-*Computational biology and in silico discovery*
-**EMBL EBI Heidelberg**
-Attended on behalf of Benevolent AI.
+**2022** 
+*Computational biology and in silico discovery* 
+**EMBL EBI Heidelberg** 
+Attended on behalf of Benevolent AI.  
 :::
 
 ::: {.timeline-item}
-**2019**
-*International PhD Students in Cancer*
-**Netherlands Cancer Institute**
-Here's me getting a poster award from Nobel prize winner [Ben Feringa](https://en.wikipedia.org/wiki/Ben_Feringa) at the International PhD Students in Cancer Conference 2019.
-<img src="files/IPSCC2.JPG" style="width:50%">
+**2019** 
+*International PhD Students in Cancer* 
+**Netherlands Cancer Institute** 
+Here's me getting a poster award from Nobel prize winner [Ben Feringa](https://en.wikipedia.org/wiki/Ben_Feringa) at the International PhD Students in Cancer Conference 2019. 
+
+
+<img src="files/IPSCC2.JPG" style="width:50%"> 
 :::
 
 :::

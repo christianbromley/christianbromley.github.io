@@ -2,7 +2,7 @@
 title: "Skills"
 ---
 
-# Technical 
+## Technical 
 
 * Python (advanced) - sklearn, pytorch, tensorflow, scipy, numpy, pandas, RDkit
 * R (advanced) - tidyverse
@@ -19,7 +19,7 @@ title: "Skills"
 * Kubeflow 
 * Shiny
 
-# Leadership 
+## Leadership 
 
 * Tech lead on 2 internal target discovery programmes at Benevolent AI, and 1 external programme with AstraZeneca. 
 * Line managed 2 interns 
