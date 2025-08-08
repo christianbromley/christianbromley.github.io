@@ -21,9 +21,13 @@ title: "Skills"
 
 ## Leadership 
 
+* Leading the construction of end-to-end ML solutions for drug discovery.
 * Tech lead on 2 internal target discovery programmes at Benevolent AI, and 1 external programme with AstraZeneca. 
 * Line managed 2 interns 
     - one project on multi'omics integration with Benevolent AI.
     - one project on machine learning for drug positioning at Owkin.
 * Managed 12 successful A level student projects across 4 years with Manchester Access Programme.
 
+## Teamwork 
+
+* Track record of connecting teams internally and fostering external relationships in academia and industry. 

@@ -21,8 +21,8 @@ website:
           file: education.qmd
       - section: Blog
         contents:
-        # - href: blog_building_site.qmd
-        #   text: Building a website for your CV
+        - href: blog_ismb.qmd
+          text: ISMB ECCB conference musings
     tools:
       - icon: linkedin
         href: https://www.linkedin.com/in/christian-bromley-8ab99475/
@@ -31,6 +31,9 @@ website:
           - text: Source Code
             url:  https://github.com/christianbromley/christianbromley.github.io
 
+
+execute:
+  freeze: auto
 
 
 format:

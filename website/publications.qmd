@@ -9,6 +9,7 @@ title: "Achievements"
 * Led data science strategy for 1 internal target discovery programme that led to investment in wet lab experiments. 
 * Built 2 machine learning pipelines from scratch for drug positioning and target identification that are now part of our client offerings. 
 * Presented a poster at Spatial Biology UK conference. 
+* Presented a poster at ISMB/ECCB 2025 conference.
 
 ## Benevolent AI 
 * Delivered research report to AstraZeneca as tech lead on target discovery programme - work that ultimately led to target nomination. 
@@ -16,6 +17,8 @@ title: "Achievements"
 * Led an internal target discovery programme from conception, data science strategy, implementation and finally to the delivery of targets for validation by drug discovery teams. 
 
 # Publications
+
+[MOSAIC: Intra-tumoral heterogeneity characterization through large-scale spatial and cell-resolved multi-omics profiling](https://www.biorxiv.org/content/10.1101/2025.05.15.654189v1)
 
 [Chemotherapy-induced COX-2 upregulation by cancer cells defines their inflammatory properties and limits the efficacy of chemoimmunotherapy combinations](https://www.nature.com/articles/s41467-022-29606-9)
 
@@ -72,8 +75,16 @@ title: "Achievements"
 ::: {.timeline}
 
 ::: {.timeline-item}
+**2025**
+*ISMB ECCB 2025, Liverpool*
+I attended ISMB ECCB 2025 in Liverpool on behalf of Owkin where I presented a poster all about our work quantifying hallmarks of ADC response from MOSAIC data.
+
+<img src="files/ISMB25.jpg" style="width:50%"> 
+:::
+
+::: {.timeline-item}
 **2024**  
-*Spatial Biology UK*       
+*Spatial Biology UK, London*       
 Last year I attended the Spatial Biology UK 2024 conference in London on behalf of the MOSAIC research team at Owkin. Here I am with our poster.
 
 
@@ -83,8 +94,7 @@ Last year I attended the Spatial Biology UK 2024 conference in London on behalf 
 
 ::: {.timeline-item}
 **2022** 
-*Computational biology and in silico discovery* 
-**EMBL EBI Heidelberg** 
+*Computational biology and in silico discovery, EMBL EBI, Heidelberg* 
 Attended on behalf of Benevolent AI.  
 :::
 

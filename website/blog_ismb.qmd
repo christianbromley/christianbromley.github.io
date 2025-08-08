@@ -1,0 +1,37 @@
+---
+title: "ISMB ECCB 2025 musings"
+---
+
+And that's a wrap. My first taste of a European Conference on Computational Biology (ECCB) and definitely won't be my last.
+
+My home(ish) city of Liverpool and 4 days of discussions covering all manner of topics around computational biology. What's not to like?
+
+Other than the pack lunches, not a lot! I wasn't sure what to expect of the conference, but it turned out to be hugely insightful.
+
+It can be easy to forget when you're working in industry in one particular field or therapeutic area that there's a whole world of innovative science going on out there. So yeah, ECCB was a pretty exciting place to be.
+
+The conference itself was far larger than I was expecting. The venue itself contained probably more than 10 rooms with several parallel sessions running basically from 9-6pm each day. You find yourself often tip-toeing into the back of the room, to find that the only available seat is on the front row and you've got to take that embaressing walk of shame in front of everyone as the talk goes on.
+
+Not only was it big, but the conference felt more global than I'd expected. I met countless people from the US, China, South America and Japan, so it was brilliantly international. The people really make these events. Who knows, maybe it was the lure of walking in the footsteps of the Beatles or visiting the home of Liverpool football club that did the trick. It's also interesting to see how the conference was able to bring together people with diverse skillsets. It definitely feels like the maths and physics nerds are becoming an increasing presence at these kind of events...they're all wanting to solve the big questions in biology now which is great.
+
+Certainly the location of the venue is incredible. Entering out the back you're immediately on the banks of the Mersey watching the ferry bobbing in the distance. The perfect lunchtime feasting spot for computational biologists!
+
+Anyway, what about the actual science?
+
+Well the breadth of topics was certainly impressive. We had discussions on public databases and scientific policy making. There were sessions on network biology, gene regulation and new 'omics technologies. We covered protein folding, AI agents, protein ligand binding, fundamental machine learning and much more. 
+
+A few common themes cut across the whole conference though.
+
+Firstly, AI is here to stay in biology. There is no corner of biology that isn't being explored by deep learning and for which autonomous AI agents aren't being built. Beyond the protein folding problem however, to a large extent addressed by AlphaFold, there still aren't an abundance of positive use cases where you can clearly highlight major advances brough about by AI.
+
+Related to this, another critical thread of the conference was around baselines.
+
+No, not the kind of basslines that you hear spilling out of Liverpool's late night bars. Nor the kind of baseline from which Carlos Alcaraz plays his magical dropshots.
+
+The kind of baseline I'm referring to allows benchmarking of our AI models. As highlighted by Charlotte Deane, we need to think carefully about the baselines we use. Not only do we need to use random baselines but also baselines thay essentially replicate what a PhD student could do manually in a lab. This will allow us to quantify the added value of such automation.
+
+There's clearly still a lot of people using knowledge graphs whether it be predicting drug adverse events or identifying new disease genes. Building these graphs often relies on public databases containing curated biomedical information - like for example Uniprot. Amos Bairoch (Swissprot) discussed at length how we need to re-think the funding model for such databases and bio-curation activities. It's easy to forget just how critical these databases are to modern day computational biology, but also for supplying the knowledge for pre-trained LLMs.
+
+
+
+
