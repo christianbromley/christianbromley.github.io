@@ -190,8 +190,21 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       </ul>
   </li>
         <li class="sidebar-item sidebar-item-section">
-      <span class="sidebar-item-text sidebar-link text-start">
- <span class="menu-text">Blog</span></span>
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true">
+ <span class="menu-text">Blog</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./blog_ismb.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">ISMB ECCB conference musings</span></a>
+  </div>
+</li>
+      </ul>
   </li>
     </ul>
     </div>
@@ -237,7 +250,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d152483.47756872556!2d-3.2234090053387896!3d53.33333247961921!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487ad819e78b6473%3A0x5855af619d4d5206!2sWirral%20Peninsula!5e0!3m2!1sen!2suk!4v1612130774206!5m2!1sen!2suk" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0">
 </iframe>
 <p>Here’s a bar chart summarising my life and career to date:</p>
-<div id="b5016eb1" class="cell" data-execution_count="1">
+<div id="191ece30" class="cell" data-execution_count="1">
 <details class="code-fold">
 <summary>Code</summary>
 <div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> seaborn <span class="im">as</span> sns</span>
@@ -292,7 +305,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb1-50"><a href="#cb1-50" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 <div class="cell-output cell-output-stderr">
-<pre><code>/var/folders/p1/91bjgvms5h3c03fp_lkjdsyw0000gp/T/ipykernel_37319/954472691.py:27: FutureWarning: The default value of observed=False is deprecated and will change to observed=True in a future version of pandas. Specify observed=False to silence this warning and retain the current behavior
+<pre><code>/var/folders/p1/91bjgvms5h3c03fp_lkjdsyw0000gp/T/ipykernel_38230/954472691.py:27: FutureWarning: The default value of observed=False is deprecated and will change to observed=True in a future version of pandas. Specify observed=False to silence this warning and retain the current behavior
   life_pivot = life.pivot_table(index='me', columns='life_stage', values='years', aggfunc='sum')</code></pre>
 </div>
 <div class="cell-output cell-output-display">

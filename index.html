@@ -156,8 +156,21 @@ ul.task-list li input[type="checkbox"] {
       </ul>
   </li>
         <li class="sidebar-item sidebar-item-section">
-      <span class="sidebar-item-text sidebar-link text-start">
- <span class="menu-text">Blog</span></span>
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true">
+ <span class="menu-text">Blog</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./blog_ismb.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">ISMB ECCB conference musings</span></a>
+  </div>
+</li>
+      </ul>
   </li>
     </ul>
     </div>
@@ -169,8 +182,7 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#background" id="toc-background" class="nav-link active" data-scroll-target="#background">Background</a></li>
-  <li><a href="#useful-links-for-creating-this-website-page" id="toc-useful-links-for-creating-this-website-page" class="nav-link" data-scroll-target="#useful-links-for-creating-this-website-page">Useful links for creating this website page</a></li>
+  <li><a href="#useful-links-for-creating-this-website-page" id="toc-useful-links-for-creating-this-website-page" class="nav-link active" data-scroll-target="#useful-links-for-creating-this-website-page">Useful links for creating this website page</a></li>
   </ul>
 </nav>
     </div>
@@ -198,7 +210,7 @@ ul.task-list li input[type="checkbox"] {
 
 <p>I’m a data scientist, computational biologist and bioinformatician living and working in London.</p>
 <p>Here’s a bar chart summarising my life and career to date:</p>
-<div id="fee0b084" class="cell" data-execution_count="1">
+<div id="aef1a6ed" class="cell" data-execution_count="1">
 <div class="cell-output cell-output-display">
 <div>
 <figure class="figure">
@@ -207,12 +219,9 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </div>
 </div>
-<section id="background" class="level1">
-<h1>Background</h1>
 <p>I grew up on the Wirral, which in case you’ve never heard of it is right about here…</p>
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d152483.47756872556!2d-3.2234090053387896!3d53.33333247961921!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487ad819e78b6473%3A0x5855af619d4d5206!2sWirral%20Peninsula!5e0!3m2!1sen!2suk!4v1612130774206!5m2!1sen!2suk" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0">
 </iframe>
-</section>
 <section id="useful-links-for-creating-this-website-page" class="level1">
 <h1>Useful links for creating this website page</h1>
 <p>In case somebody would like to create a similar web page to this, I used Quarto and followed guides here:</p>
