@@ -5,7 +5,7 @@ format:
     code-fold: true
 ---
 
-I'm a data scientist, computational biologist and bioinformatician living and working in London.
+My name is Chris and I'm a data scientist, computational biologist and bioinformatician working in London.
 
 Here's a bar chart summarising my life and career to date:
 
@@ -64,7 +64,13 @@ plt.show()
 
 
 ```
+# Interests
 
+* Sport (tennis, football, running, cycling, golf, rugby) 
+* Painting (landscapes, animals etc)
+* Non-fiction books 
+
+# Background
 
 I grew up on the Wirral, which in case you've never heard of it is right about here...
 

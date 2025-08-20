@@ -2,6 +2,59 @@
 title: "Skills"
 ---
 
+## Data Modalities
+* Electronic health records and clinical data
+    * Clinical trials (BAI)
+    * UK Biobank (BAI)
+    * Retrospective studies (Owkin - MOSAIC)
+* Knowledge graphs and text (BAI)
+* Bulk RNAseq 
+    * Raw processing and QC (Owkin - MOSAIC)
+        * STAR/ STAR fusion
+        * Kallisto
+        * Arriba
+        * FastQC/ MultiQC
+    * Downstream applications (PhD)
+        * DGE analysis
+        * GSEA/ ORA
+        * Deconvolution 
+        * Motif enrichment 
+        * Dimensionality reduction 
+        * Feature selection 
+        * Classification and regression tasks 
+        * Unsupervised modelling 
+        * Co-expressing network modelling 
+* Whole exome sequencing
+    * Processing data QC and integrated QC pipeline building (Owkin - MOSAIC)
+    * Downstream applications
+        * SNV/Indel variant calls (PhD - cell line KRAS mutants)
+        * Tumor purity
+        * ML applications (PhD, BAI, Owkin)
+* Single cell RNA sequencing
+    * QC pipeline (Owkin - MOSAIC)
+    * Cell annotation
+    * Doublet detection
+    * Data integration
+    * Cell communication analysis
+    * Genetics integrated analysis 
+* Spatial transcriptomics
+    * QC pipeline (Owkin - MOSAIC)
+    * Patient-matched scRNAseq data integration 
+    * Target ID
+    * Biomarker identification
+    * Network analysis 
+    * Feature extraction and selection
+    * Spatial statistics
+    * Pathology analysis integration 
+* Mass spec proteomics
+    * Downstream analysis (BAI, Owkin)
+        * Coexpression network 
+        * mRNA to protein correlation 
+* Multipliex IF 
+    * Computational pathology assessment using HALO (PhD)
+* Histology
+    * H&E/ IHC QC (Owkin)
+
 ## Technical 
 
 * Python (advanced) - sklearn, pytorch, tensorflow, scipy, numpy, pandas, RDkit
