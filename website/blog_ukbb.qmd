@@ -1,0 +1,21 @@
+---
+title: "500,000 whole genomes!"
+---
+ 
+A new publication from UKBB is out [here](https://www.nature.com/articles/s41586-025-09272-9).
+
+<img src="files/ukbb_wgs_paper.jpg" style="width:50%"> 
+
+It's quite amazing to see an analysis of ~500,000 whole genome sequences. I'm super interested to dig into this paper because I'm still a big believer that the next frontier in target discovery must be in revealing the secrets of the non-coding genome. I suppose with a dataset like this we can start to do just that.
+
+They called >1 billion SNPs, >100 million indels across three different tools. The numbers involved here are pretty mind boggling.
+
+These bioinformaticians definitely need a pat on the back - not to mention the data engineers and everyone else involved.
+
+They found >30,000 GWAS hits for 763 binary and 71 quantitative phenotypes across the different ancentry subgroups. There was a 12% increase compared to SNP arrays, which I'm sure justifies the added cost! It's kind of tantalising to think that there's 30,000 potential disease-relevant genetic associations. The question then becomes how on earth do you prioritise what to study in more detail - what to validate in silico and in the lab? Clearly, this is the kind of job aritifical intelligence could have a big impact in.
+
+They highlight a small analysis of so-called human "knockouts" where there are homozygous loss-of-function variants in the protein coding sequence. These are particularly fascinating to study from the perspective of drug discovery as you can begin to analyse the predicted effects of pharmacological inhibition of a particular gene. Although homozygous gene deletion throughout life, as per these human knockouts, does not quite equate to drug modulation later in life within the context of a disease. Nevertheless, these human "knockouts" could be particularly informative with regards to safety - which genes can we essentially live a healthy life without? The most famous dataset of human "knockouts" was of course the [Born in Bradford study](https://www.science.org/doi/10.1126/science.aac8624). That was one of those papers that you read and it makes you say wow!
+
+The UKBB paper goes on to carry out a few other distinct analyses such as one focussed on gene-phenotype associations from rare variants in UTRs. Really, the paper only seems to touch the surface of what is possible with this kind of dataset. I'm sure many more papers will follow on from this. 
+
+

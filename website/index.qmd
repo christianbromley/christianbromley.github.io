@@ -7,6 +7,8 @@ format:
 
 My name is Chris and I'm a data scientist, computational biologist and bioinformatician working in London.
 
+This webpage is my online CV but I'll occasionally add some blog posts on topics I find interesting. If anything, it's just a way for me to keep some notes that I can refer back to.
+
 Here's a bar chart summarising my life and career to date:
 
 ```{python}

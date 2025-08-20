@@ -55,10 +55,10 @@ title: "Skills"
 * Histology
     * H&E/ IHC QC (Owkin)
 
-## Technical 
+## Technical
 
-* Python (advanced) - sklearn, pytorch, tensorflow, scipy, numpy, pandas, RDkit
-* R (advanced) - tidyverse
+* Python (advanced) - sklearn, pytorch, tensorflow, scipy, numpy, pandas, RDkit 
+* R (advanced) - tidyverse 
 * bash 
 * git 
 * Docker 
@@ -66,21 +66,35 @@ title: "Skills"
 * Redshift 
 * S3 
 * PostgresSQL 
-* Cypher 
+* Cypher  
 * Databricks 
 * Neo4J 
-* Kubeflow 
-* Shiny
+* Kubeflow  
+* Shiny 
 
-## Leadership 
+## Therapy Areas
 
-* Leading the construction of end-to-end ML solutions for drug discovery.
+### Oncology
+This is my main area of expertise including my most recent work at Owkin where I have been learning how to develop advanced computational methods for target ID that retain explainability. I'm fascinated by the intersection of cancer evolution, inflammation and immunity. Indeed, for my PhD I studied the interplay of pro- and anti-tumourigenic inflammatory phenotypes in cancer, focussing on translating the findings from our basic immunology lab into patient multi-modal 'omics data. We were particularly interested in biomarker development at the time, and indeed I've continued learning about patient stratification approaches from within industry.
+
+### Immune-related disorders
+Working in a my PhD lab for four years gave me a solid grounding in immunology. We attended dendritic cell conferences in Lisbon and studied the interaction of these cells with myriad other cell types in reductive, in vitro systems as well as in whole organisms. In most diseases, the immune system has to some extent gone awry, and I was fortunate enough to perform a thorough, in silico mechanistic deep dive into Systemic Lupus Erthymatosus as part of the BAI-AstraZeneca collaboration. This provided me with the chance to learn from real disease experts and learn not only from clinicians that treat patients, but also from the scientists establishing high throughput screens in the lab. Not only did it teach me a great deal about how to propel drug development programs forwards, but it also stimulated by interest in the biology underpinning autoimmune diseases.
+
+## Muscular disorders
+A long time ago during my degree I worked with yeast, creating point mutations in genes involved in movement and monitoring changes in yeast phenotypes. Fast forward maybe 8 years and I had the chance to work on a therapeutic program for a muscle-wasting disorder. Given that it was a disease of old age, it was fascinating to consider how co-morbidities might influence the disease course. This was my first exposure to the UK Biobank as a tool for drug discovery. I learnt about how to design GWAS and PheWAS experiments. Ever since, I've kept an eye on the field and on publications arising from UKBB.
+
+## Leadership
+
+* Leading the construction of end-to-end ML solutions for drug discovery. 
 * Tech lead on 2 internal target discovery programmes at Benevolent AI, and 1 external programme with AstraZeneca. 
-* Line managed 2 interns 
-    - one project on multi'omics integration with Benevolent AI.
-    - one project on machine learning for drug positioning at Owkin.
-* Managed 12 successful A level student projects across 4 years with Manchester Access Programme.
+* Line managed 2 interns  
+    - one project on multi'omics integration with Benevolent AI. 
+    - one project on machine learning for drug positioning at Owkin. 
+* Managed 12 successful A level student projects across 4 years with Manchester Access Programme. 
 
-## Teamwork 
+## Teamwork
 
 * Track record of connecting teams internally and fostering external relationships in academia and industry. 
+* I'm passionate about team science - the most enjoyable projects are those when you get to work in a close knit team with complementary skillsets where you have a clear mission.
+
+
