@@ -4,7 +4,11 @@
     "href": "blog_ukbb.html",
     "title": "500,000 whole genomes!",
     "section": "",
-    "text": "A new publication from UKBB is out here.\n\nIt’s quite amazing to see an analysis of ~500,000 whole genome sequences. I’m super interested to dig into this paper because I’m still a big believer that the next frontier in target discovery must be in revealing the secrets of the non-coding genome. I suppose with a dataset like this we can start to do just that.\nThey called &gt;1 billion SNPs, &gt;100 million indels across three different tools. The numbers involved here are pretty mind boggling.\nThese bioinformaticians definitely need a pat on the back - not to mention the data engineers and everyone else involved.\nThey found &gt;30,000 GWAS hits for 763 binary and 71 quantitative phenotypes across the different ancentry subgroups. There was a 12% increase compared to SNP arrays, which I’m sure justifies the added cost! It’s kind of tantalising to think that there’s 30,000 potential disease-relevant genetic associations. The question then becomes how on earth do you prioritise what to study in more detail - what to validate in silico and in the lab? Clearly, this is the kind of job aritifical intelligence could have a big impact in.\nThey highlight a small analysis of so-called human “knockouts” where there are homozygous loss-of-function variants in the protein coding sequence. These are particularly fascinating to study from the perspective of drug discovery as you can begin to analyse the predicted effects of pharmacological inhibition of a particular gene. Although homozygous gene deletion throughout life, as per these human knockouts, does not quite equate to drug modulation later in life within the context of a disease. Nevertheless, these human “knockouts” could be particularly informative with regards to safety - which genes can we essentially live a healthy life without? The most famous dataset of human “knockouts” was of course the Born in Bradford study. That was one of those papers that you read and it makes you say wow!\nThe UKBB paper goes on to carry out a few other distinct analyses such as one focussed on gene-phenotype associations from rare variants in UTRs. Really, the paper only seems to touch the surface of what is possible with this kind of dataset. I’m sure many more papers will follow on from this."
+    "text": "A new publication from UKBB is out here.\n\nIt’s quite amazing to see an analysis of ~500,000 whole genome sequences. I’m super interested to dig into this paper because I’m still a big believer that the next frontier in target discovery must be in revealing the secrets of the non-coding genome. I suppose with a dataset like this we can start to do just that.\nThey called &gt;1 billion SNPs, &gt;100 million indels across three different tools. The numbers involved here are pretty mind boggling.\nThese bioinformaticians definitely need a pat on the back - not to mention the data engineers and everyone else involved.\nThey found &gt;30,000 GWAS hits for 763 binary and 71 quantitative phenotypes across the different ancentry subgroups. There was a 12% increase compared to SNP arrays, which I’m sure justifies the added cost! It’s kind of tantalising to think that there’s 30,000 potential disease-relevant genetic associations. The question then becomes how on earth do you prioritise what to study in more detail - what to validate in silico and in the lab? Clearly, this is the kind of job aritifical intelligence could have a big impact in.\nThey highlight a small analysis of so-called human “knockouts” where there are homozygous loss-of-function variants in the protein coding sequence. These are particularly fascinating to study from the perspective of drug discovery as you can begin to analyse the predicted effects of pharmacological inhibition of a particular gene. Although homozygous gene deletion throughout life, as per these human knockouts, does not quite equate to drug modulation later in life within the context of a disease. Nevertheless, these human “knockouts” could be particularly informative with regards to safety - which genes can we essentially live a healthy life without? The most famous dataset of human “knockouts” was of course the Born in Bradford study. That was one of those papers that you read and it makes you say wow!\nThe UKBB paper goes on to carry out a few other distinct analyses such as one focussed on gene-phenotype associations from rare variants in UTRs. Really, the paper only seems to touch the surface of what is possible with this kind of dataset. I’m sure many more papers will follow on from this.",
+    "crumbs": [
+      "Blog",
+      "500,000 whole genomes"
+    ]
   },
   {
     "objectID": "skills.html",
@@ -40,6 +44,28 @@
     ]
   },
   {
+    "objectID": "skills.html#leadership",
+    "href": "skills.html#leadership",
+    "title": "Skills",
+    "section": "Leadership",
+    "text": "Leadership\n\nLeading the construction of end-to-end ML solutions for drug discovery.\nTech lead on 2 internal target discovery programmes at Benevolent AI, and 1 external programme with AstraZeneca.\nLine managed 2 interns\n\none project on multi’omics integration with Benevolent AI.\none project on machine learning for drug positioning at Owkin.\n\nManaged 12 successful A level student projects across 4 years with Manchester Access Programme.",
+    "crumbs": [
+      "CV",
+      "Skills"
+    ]
+  },
+  {
+    "objectID": "skills.html#teamwork",
+    "href": "skills.html#teamwork",
+    "title": "Skills",
+    "section": "Teamwork",
+    "text": "Teamwork\n\nTrack record of connecting teams internally and fostering external relationships in academia and industry.\nI’m passionate about team science - the most enjoyable projects are those when you get to work in a close knit team with complementary skillsets where you have a clear mission.",
+    "crumbs": [
+      "CV",
+      "Skills"
+    ]
+  },
+  {
     "objectID": "skills.html#therapy-areas",
     "href": "skills.html#therapy-areas",
     "title": "Skills",
@@ -56,17 +82,6 @@
     "title": "Skills",
     "section": "Muscular disorders",
     "text": "Muscular disorders\nA long time ago during my degree I worked with yeast, creating point mutations in genes involved in movement and monitoring changes in yeast phenotypes. Fast forward maybe 8 years and I had the chance to work on a therapeutic program for a muscle-wasting disorder. Given that it was a disease of old age, it was fascinating to consider how co-morbidities might influence the disease course. This was my first exposure to the UK Biobank as a tool for drug discovery. I learnt about how to design GWAS and PheWAS experiments. Ever since, I’ve kept an eye on the field and on publications arising from UKBB.",
-    "crumbs": [
-      "CV",
-      "Skills"
-    ]
-  },
-  {
-    "objectID": "skills.html#leadership",
-    "href": "skills.html#leadership",
-    "title": "Skills",
-    "section": "Leadership",
-    "text": "Leadership\n\nLeading the construction of end-to-end ML solutions for drug discovery.\nTech lead on 2 internal target discovery programmes at Benevolent AI, and 1 external programme with AstraZeneca.\nLine managed 2 interns\n\none project on multi’omics integration with Benevolent AI.\none project on machine learning for drug positioning at Owkin.\n\nManaged 12 successful A level student projects across 4 years with Manchester Access Programme.\n\n## Teamwork\n\nTrack record of connecting teams internally and fostering external relationships in academia and industry.\nI’m passionate about team science - the most enjoyable projects are those when you get to work in a close knit team with complementary skillsets where you have a clear mission.",
     "crumbs": [
       "CV",
       "Skills"
@@ -106,7 +121,7 @@
     "href": "index.html",
     "title": "Welcome",
     "section": "",
-    "text": "My name is Chris and I’m a data scientist, computational biologist and bioinformatician working in London.\nThis webpage is my online CV but I’ll occasionally add some blog posts on topics I find interesting. If anything, it’s just a way for me to keep some notes that I can refer back to.\nHere’s a bar chart summarising my life and career to date:\n\n\n\n\n\n\n\n\n\n\nInterests\n\nSport (tennis, football, running, cycling, golf, rugby)\nPainting (landscapes, animals etc)\nNon-fiction books\n\n# Background\nI grew up on the Wirral, which in case you’ve never heard of it is right about here…\n\n\n\n\nUseful links for creating this website page\nIn case somebody would like to create a similar web page to this, I used Quarto and followed guides here:\n\nGH pages guide here.\nvenv guide here.\n\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+    "text": "My name is Chris and I’m a data scientist, computational biologist and bioinformatician working in London.\nThis webpage is my online CV but I’ll occasionally add some blog posts on topics I find interesting. If anything, it’s just a way for me to keep some notes that I can refer back to.\nHere’s a bar chart summarising my life and career to date:\n\n\n\n\n\n\n\n\n\n\nInterests\n\nSport (tennis, football, running, cycling, golf, rugby)\nPainting (landscapes, animals etc)\nNon-fiction books\n\n\n\nBackground\nI grew up on the Wirral, which in case you’ve never heard of it is right about here…\n\n\n\n\nUseful links for creating this website page\nIn case somebody would like to create a similar web page to this, I used Quarto and followed guides here:\n\nGH pages guide here.\nvenv guide here.\n\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
   },
   {
     "objectID": "publications.html",
