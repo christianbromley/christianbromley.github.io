@@ -1,35 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://christianbromley.github.io/blog_building_site.html</loc>
-    <lastmod>2025-02-07T17:17:35.458Z</lastmod>
+    <loc>https://christianbromley.github.io/blog_ukbb.html</loc>
+    <lastmod>2025-08-20T22:08:53.501Z</lastmod>
   </url>
   <url>
-    <loc>https://christianbromley.github.io/education.html</loc>
-    <lastmod>2025-04-19T18:43:51.677Z</lastmod>
-  </url>
-  <url>
-    <loc>https://christianbromley.github.io/publications.html</loc>
-    <lastmod>2025-08-08T04:45:13.437Z</lastmod>
-  </url>
-  <url>
-    <loc>https://christianbromley.github.io/index.html</loc>
-    <lastmod>2025-08-08T04:45:08.617Z</lastmod>
-  </url>
-  <url>
-    <loc>https://christianbromley.github.io/blog_ismb.html</loc>
-    <lastmod>2025-08-08T05:35:21.081Z</lastmod>
-  </url>
-  <url>
-    <loc>https://christianbromley.github.io/experience.html</loc>
-    <lastmod>2025-08-08T04:45:03.639Z</lastmod>
+    <loc>https://christianbromley.github.io/skills.html</loc>
+    <lastmod>2025-08-20T21:37:51.639Z</lastmod>
   </url>
   <url>
     <loc>https://christianbromley.github.io/about.html</loc>
     <lastmod>2025-03-03T19:08:58.951Z</lastmod>
   </url>
   <url>
-    <loc>https://christianbromley.github.io/skills.html</loc>
-    <lastmod>2025-08-08T04:54:07.015Z</lastmod>
+    <loc>https://christianbromley.github.io/experience.html</loc>
+    <lastmod>2025-08-20T17:10:43.873Z</lastmod>
+  </url>
+  <url>
+    <loc>https://christianbromley.github.io/blog_ismb.html</loc>
+    <lastmod>2025-08-08T05:35:21.081Z</lastmod>
+  </url>
+  <url>
+    <loc>https://christianbromley.github.io/index.html</loc>
+    <lastmod>2025-08-20T21:12:27.574Z</lastmod>
+  </url>
+  <url>
+    <loc>https://christianbromley.github.io/publications.html</loc>
+    <lastmod>2025-08-20T21:13:38.089Z</lastmod>
+  </url>
+  <url>
+    <loc>https://christianbromley.github.io/education.html</loc>
+    <lastmod>2025-04-19T18:43:51.677Z</lastmod>
+  </url>
+  <url>
+    <loc>https://christianbromley.github.io/blog_building_site.html</loc>
+    <lastmod>2025-02-07T17:17:35.458Z</lastmod>
   </url>
 </urlset>

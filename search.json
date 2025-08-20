@@ -1,21 +1,112 @@
 [
   {
-    "objectID": "blog_building_site.html",
-    "href": "blog_building_site.html",
-    "title": "Building a personal website for your CV",
+    "objectID": "blog_ukbb.html",
+    "href": "blog_ukbb.html",
+    "title": "500,000 whole genomes!",
     "section": "",
-    "text": "The internet is not short of these kind of blog posts."
+    "text": "A new publication from UKBB is out here.\n\nIt’s quite amazing to see an analysis of ~500,000 whole genome sequences. I’m super interested to dig into this paper because I’m still a big believer that the next frontier in target discovery must be in revealing the secrets of the non-coding genome. I suppose with a dataset like this we can start to do just that.\nThey called &gt;1 billion SNPs, &gt;100 million indels across three different tools. The numbers involved here are pretty mind boggling.\nThese bioinformaticians definitely need a pat on the back - not to mention the data engineers and everyone else involved.\nThey found &gt;30,000 GWAS hits for 763 binary and 71 quantitative phenotypes across the different ancentry subgroups. There was a 12% increase compared to SNP arrays, which I’m sure justifies the added cost! It’s kind of tantalising to think that there’s 30,000 potential disease-relevant genetic associations. The question then becomes how on earth do you prioritise what to study in more detail - what to validate in silico and in the lab? Clearly, this is the kind of job aritifical intelligence could have a big impact in.\nThey highlight a small analysis of so-called human “knockouts” where there are homozygous loss-of-function variants in the protein coding sequence. These are particularly fascinating to study from the perspective of drug discovery as you can begin to analyse the predicted effects of pharmacological inhibition of a particular gene. Although homozygous gene deletion throughout life, as per these human knockouts, does not quite equate to drug modulation later in life within the context of a disease. Nevertheless, these human “knockouts” could be particularly informative with regards to safety - which genes can we essentially live a healthy life without? The most famous dataset of human “knockouts” was of course the Born in Bradford study. That was one of those papers that you read and it makes you say wow!\nThe UKBB paper goes on to carry out a few other distinct analyses such as one focussed on gene-phenotype associations from rare variants in UTRs. Really, the paper only seems to touch the surface of what is possible with this kind of dataset. I’m sure many more papers will follow on from this."
   },
   {
-    "objectID": "education.html",
-    "href": "education.html",
-    "title": "Education",
+    "objectID": "skills.html",
+    "href": "skills.html",
+    "title": "Skills",
     "section": "",
-    "text": "Courses\n\n2025\nDeep Learning Specialization\nCoursera\n\n\n2025\nAgents\nHugging Face\n\n\n2023\nMachine Learning Specialization\nCoursera\n\n\n\nFormal Education\n\n2017 - 2021\nPhD in Bioinformatics and Computational Biology\nUniversity of Manchester\n- transcriptomics - genomics - single cell ’omics - multiplex immunofluorescence - prognostic modelling - machine learning - basic immunology - cancer immunotherapy - inflammation - cell culture and genetic knockout - spatial ’omics and image analysis\n\n\n2019\nDistinction in Intro to Bioinformatics Masters module\nUniversity of Manchester\n- sequence alignment - data processing - ’omics technologies\n\n\n2011 - 2015\nFirst class degree in Biomedical Science with Industrial Experience\nUniversity of Sheffield\n- pharmacology - cell biology - physiology - developmental biology - neuroscience - anatomy - pathology\n\n\n2004-2011\nA levels\nSchool\n- A* Maths - A Biology - A Chemistry",
+    "text": "Electronic health records and clinical data\n\nClinical trials (BAI)\nUK Biobank (BAI)\nRetrospective studies (Owkin - MOSAIC)\n\nKnowledge graphs and text (BAI)\nBulk RNAseq\n\nRaw processing and QC (Owkin - MOSAIC)\n\nSTAR/ STAR fusion\nKallisto\nArriba\nFastQC/ MultiQC\n\nDownstream applications (PhD)\n\nDGE analysis\nGSEA/ ORA\nDeconvolution\nMotif enrichment\nDimensionality reduction\nFeature selection\nClassification and regression tasks\nUnsupervised modelling\nCo-expressing network modelling\n\n\nWhole exome sequencing\n\nProcessing data QC and integrated QC pipeline building (Owkin - MOSAIC)\nDownstream applications\n\nSNV/Indel variant calls (PhD - cell line KRAS mutants)\nTumor purity\nML applications (PhD, BAI, Owkin)\n\n\nSingle cell RNA sequencing\n\nQC pipeline (Owkin - MOSAIC)\nCell annotation\nDoublet detection\nData integration\nCell communication analysis\nGenetics integrated analysis\n\nSpatial transcriptomics\n\nQC pipeline (Owkin - MOSAIC)\nPatient-matched scRNAseq data integration\nTarget ID\nBiomarker identification\nNetwork analysis\nFeature extraction and selection\nSpatial statistics\nPathology analysis integration\n\nMass spec proteomics\n\nDownstream analysis (BAI, Owkin)\n\nCoexpression network\nmRNA to protein correlation\n\n\nMultipliex IF\n\nComputational pathology assessment using HALO (PhD)\n\nHistology\n\nH&E/ IHC QC (Owkin)",
     "crumbs": [
       "CV",
-      "Education"
+      "Skills"
     ]
+  },
+  {
+    "objectID": "skills.html#data-modalities",
+    "href": "skills.html#data-modalities",
+    "title": "Skills",
+    "section": "",
+    "text": "Electronic health records and clinical data\n\nClinical trials (BAI)\nUK Biobank (BAI)\nRetrospective studies (Owkin - MOSAIC)\n\nKnowledge graphs and text (BAI)\nBulk RNAseq\n\nRaw processing and QC (Owkin - MOSAIC)\n\nSTAR/ STAR fusion\nKallisto\nArriba\nFastQC/ MultiQC\n\nDownstream applications (PhD)\n\nDGE analysis\nGSEA/ ORA\nDeconvolution\nMotif enrichment\nDimensionality reduction\nFeature selection\nClassification and regression tasks\nUnsupervised modelling\nCo-expressing network modelling\n\n\nWhole exome sequencing\n\nProcessing data QC and integrated QC pipeline building (Owkin - MOSAIC)\nDownstream applications\n\nSNV/Indel variant calls (PhD - cell line KRAS mutants)\nTumor purity\nML applications (PhD, BAI, Owkin)\n\n\nSingle cell RNA sequencing\n\nQC pipeline (Owkin - MOSAIC)\nCell annotation\nDoublet detection\nData integration\nCell communication analysis\nGenetics integrated analysis\n\nSpatial transcriptomics\n\nQC pipeline (Owkin - MOSAIC)\nPatient-matched scRNAseq data integration\nTarget ID\nBiomarker identification\nNetwork analysis\nFeature extraction and selection\nSpatial statistics\nPathology analysis integration\n\nMass spec proteomics\n\nDownstream analysis (BAI, Owkin)\n\nCoexpression network\nmRNA to protein correlation\n\n\nMultipliex IF\n\nComputational pathology assessment using HALO (PhD)\n\nHistology\n\nH&E/ IHC QC (Owkin)",
+    "crumbs": [
+      "CV",
+      "Skills"
+    ]
+  },
+  {
+    "objectID": "skills.html#technical",
+    "href": "skills.html#technical",
+    "title": "Skills",
+    "section": "Technical",
+    "text": "Technical\n\nPython (advanced) - sklearn, pytorch, tensorflow, scipy, numpy, pandas, RDkit\nR (advanced) - tidyverse\nbash\ngit\nDocker\nSagemaker\nRedshift\nS3\nPostgresSQL\nCypher\n\nDatabricks\nNeo4J\nKubeflow\n\nShiny",
+    "crumbs": [
+      "CV",
+      "Skills"
+    ]
+  },
+  {
+    "objectID": "skills.html#therapy-areas",
+    "href": "skills.html#therapy-areas",
+    "title": "Skills",
+    "section": "Therapy Areas",
+    "text": "Therapy Areas\n\nOncology\nThis is my main area of expertise including my most recent work at Owkin where I have been learning how to develop advanced computational methods for target ID that retain explainability. I’m fascinated by the intersection of cancer evolution, inflammation and immunity. Indeed, for my PhD I studied the interplay of pro- and anti-tumourigenic inflammatory phenotypes in cancer, focussing on translating the findings from our basic immunology lab into patient multi-modal ’omics data. We were particularly interested in biomarker development at the time, and indeed I’ve continued learning about patient stratification approaches from within industry.\n\n\nImmune-related disorders\nWorking in a my PhD lab for four years gave me a solid grounding in immunology. We attended dendritic cell conferences in Lisbon and studied the interaction of these cells with myriad other cell types in reductive, in vitro systems as well as in whole organisms. In most diseases, the immune system has to some extent gone awry, and I was fortunate enough to perform a thorough, in silico mechanistic deep dive into Systemic Lupus Erthymatosus as part of the BAI-AstraZeneca collaboration. This provided me with the chance to learn from real disease experts and learn not only from clinicians that treat patients, but also from the scientists establishing high throughput screens in the lab. Not only did it teach me a great deal about how to propel drug development programs forwards, but it also stimulated by interest in the biology underpinning autoimmune diseases.",
+    "crumbs": [
+      "CV",
+      "Skills"
+    ]
+  },
+  {
+    "objectID": "skills.html#muscular-disorders",
+    "href": "skills.html#muscular-disorders",
+    "title": "Skills",
+    "section": "Muscular disorders",
+    "text": "Muscular disorders\nA long time ago during my degree I worked with yeast, creating point mutations in genes involved in movement and monitoring changes in yeast phenotypes. Fast forward maybe 8 years and I had the chance to work on a therapeutic program for a muscle-wasting disorder. Given that it was a disease of old age, it was fascinating to consider how co-morbidities might influence the disease course. This was my first exposure to the UK Biobank as a tool for drug discovery. I learnt about how to design GWAS and PheWAS experiments. Ever since, I’ve kept an eye on the field and on publications arising from UKBB.",
+    "crumbs": [
+      "CV",
+      "Skills"
+    ]
+  },
+  {
+    "objectID": "skills.html#leadership",
+    "href": "skills.html#leadership",
+    "title": "Skills",
+    "section": "Leadership",
+    "text": "Leadership\n\nLeading the construction of end-to-end ML solutions for drug discovery.\nTech lead on 2 internal target discovery programmes at Benevolent AI, and 1 external programme with AstraZeneca.\nLine managed 2 interns\n\none project on multi’omics integration with Benevolent AI.\none project on machine learning for drug positioning at Owkin.\n\nManaged 12 successful A level student projects across 4 years with Manchester Access Programme.\n\n## Teamwork\n\nTrack record of connecting teams internally and fostering external relationships in academia and industry.\nI’m passionate about team science - the most enjoyable projects are those when you get to work in a close knit team with complementary skillsets where you have a clear mission.",
+    "crumbs": [
+      "CV",
+      "Skills"
+    ]
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "A bit about me…",
+    "section": "",
+    "text": "Background and career so far\nI’m a computational biology, data scientist and bioinformatician living and working in London.\nI grew up on the Wirral, which in case you’ve never heard of it is right about here…\n\n\nHere’s a bar chart summarising my life and career to date:\n\n\nCode\nimport seaborn as sns\nimport matplotlib.pyplot as plt\nimport pandas as pd\n\n# create data\nlife = pd.DataFrame({\n    'life_stage': [\"Growing up\", \"Sheffield University\", \"GSK industrial placement\", \"Sheffield University part 2\", \"AstraZeneca Alderley Edge\", \"AstraZeneca Cambridge\", \"Manchester University/CRUK PhD\", \"Benevolent AI\", \"Owkin\"],\n    'role': [\n        \"Messing around\", \"Biomedical science\", \"In vitro immunology\", \"Biomedical science\", \"Animal technician\", \"In vitro oncology & early clinical development\", \"Computational biologist & bioinformatician in cancer immunology\", \"Data science\", \"Data science\"\n    ],\n    'months': [(18*12)+2, 2*12, 1*12,1*12, 8, 2*8, (3*12)+4, 20, 20],\n    'me': ['My life']*9\n})\n\nlife.loc[:, 'years'] = life['months'] / 12\nlife['life_stage'] = pd.Categorical(life['life_stage'], categories=[\"Growing up\", \"Sheffield University\", \"GSK industrial placement\", \"Sheffield University part 2\", \"AstraZeneca Alderley Edge\", \"AstraZeneca Cambridge\", \"Manchester University/CRUK PhD\", \"Benevolent AI\", \"Owkin\"], ordered=True)\n\n# Create the plot\nimport pandas as pd\nimport matplotlib.pyplot as plt\n\n# Sample Data (Replace this with your actual DataFrame)\n# Assuming 'life' already exists and has columns 'months', 'me', and 'life_stage'\nlife['years'] = life['months'] / 12  # Convert months to years\n\n# Pivot data for stacking\nlife_pivot = life.pivot_table(index='me', columns='life_stage', values='years', aggfunc='sum')\n\n# Plot stacked bar chart\nfig, ax = plt.subplots(figsize=(8, 6))\nlife_pivot.plot(kind='barh', stacked=True, ax=ax, edgecolor='black')\n\n# Customizing the plot to match ggplot2\nax.set_xlabel('Years')\nax.set_ylabel('')\nax.set_xlim(0, 32)\nax.set_xticks([0, 10, 20, 30])\nax.invert_yaxis()  # Flip to match coord_flip()\n\n# Remove spines for minimal theme\nax.spines['top'].set_visible(False)\nax.spines['right'].set_visible(False)\nax.spines['left'].set_visible(False)\n\n# Add legend and grid\nax.legend(title='Life Stage', bbox_to_anchor=(1, 1))\nax.grid(axis='x', linestyle='--', alpha=0.7)\n\nplt.tight_layout()\nplt.show()\n\n\n/var/folders/p1/91bjgvms5h3c03fp_lkjdsyw0000gp/T/ipykernel_38230/954472691.py:27: FutureWarning: The default value of observed=False is deprecated and will change to observed=True in a future version of pandas. Specify observed=False to silence this warning and retain the current behavior\n  life_pivot = life.pivot_table(index='me', columns='life_stage', values='years', aggfunc='sum')\n\n\n\n\n\n\n\n\n\n\n\nUseful links for creating this website page\n\nGH pages guide here.\nvenv guide here. To learn more about Quarto websites visit https://quarto.org/docs/websites."
+  },
+  {
+    "objectID": "experience.html",
+    "href": "experience.html",
+    "title": "Professional Experience",
+    "section": "",
+    "text": "2023 - Present\nSenior Computational Biologist\nOwkin\nBuilding end-to-end machine learning applications for target discovery, drug positioning and biomarker ID.\nDeveloped clinical and multi-omics data processing pipelines that have been applied to data generated from more than 2500 patients.\n\n\n2021 - 2023\nBioinformatics Data Scientist\nBenevolent AI\nTechnical lead on multiple drug discovery programs leading the data ingestion, processing and modelling strategy for novel disease mechanism discovery and target identification.\n\n\n2017 - 2021\nBioinformatics and Cancer Immunology PhD student\nCancer Research UK\nAnalysed multi-omics oncology datasets to elucidate cancer inflammation and immune evasion mechanisms, as well as discovery biomarkers of response to immune checkpoint inhibitors.\n\n\n2017 - 2021\nScientific Leader\nManchester Access Programme\nManaged, tutored and guided A-level students through scientific research projects.\n\n\n2015 - 2017\nEarly Clinical Development Scientist and In Vitro/Vivo Biologist\nAstraZeneca\nPlanned and executed in vitro and in vivo studies to facilitate oncology drug discovery. Managed externally sponsored phase I/II basket trials as a member of the early clinical development team. Provided competitor intelligence/ disease landscaping.\n\n\n2013 - 2014\nIndustrial Placement Student\nGlaxoSmithKline\nPerformed compound screening in B cell and dendritic cell assays contributing towards the candidate selection data packages for autoimmune diseases.\n\n\n2011 - 2015\nBiomedical Science Student, First Class Degree\nUniversity of Sheffield\nPhysiology, cell biology, developmental biology, neuroscience, anatomy, biochemistry and more.\n\n\n2004 - 2011\nSchool Student\nWirral Grammer School\nMaths A*, Biology A, Chemistry A",
+    "crumbs": [
+      "CV",
+      "Experience"
+    ]
+  },
+  {
+    "objectID": "blog_ismb.html",
+    "href": "blog_ismb.html",
+    "title": "ISMB ECCB 2025 musings",
+    "section": "",
+    "text": "And that’s a wrap. My first taste of a European Conference on Computational Biology (ECCB) and definitely won’t be my last.\nMy home(ish) city of Liverpool and 4 days of discussions covering all manner of topics around computational biology. What’s not to like?\nOther than the pack lunches, not a lot! I wasn’t sure what to expect of the conference, but it turned out to be hugely insightful.\nIt can be easy to forget when you’re working in industry in one particular field or therapeutic area that there’s a whole world of innovative science going on out there. So yeah, ECCB was a pretty exciting place to be.\nThe conference itself was far larger than I was expecting. The venue itself contained probably more than 10 rooms with several parallel sessions running basically from 9-6pm each day. You find yourself often tip-toeing into the back of the room, to find that the only available seat is on the front row and you’ve got to take that embaressing walk of shame in front of everyone as the talk goes on.\nNot only was it big, but the conference felt more global than I’d expected. I met countless people from the US, China, South America and Japan, so it was brilliantly international. The people really make these events. Who knows, maybe it was the lure of walking in the footsteps of the Beatles or visiting the home of Liverpool football club that did the trick. It’s also interesting to see how the conference was able to bring together people with diverse skillsets. It definitely feels like the maths and physics nerds are becoming an increasing presence at these kind of events…they’re all wanting to solve the big questions in biology now which is great.\nCertainly the location of the venue is incredible. Entering out the back you’re immediately on the banks of the Mersey watching the ferry bobbing in the distance. The perfect lunchtime feasting spot for computational biologists!\nAnyway, what about the actual science?\nWell the breadth of topics was certainly impressive. We had discussions on public databases and scientific policy making. There were sessions on network biology, gene regulation and new ’omics technologies. We covered protein folding, AI agents, protein ligand binding, fundamental machine learning and much more.\nA few common themes cut across the whole conference though.\nFirstly, AI is here to stay in biology. There is no corner of biology that isn’t being explored by deep learning and for which autonomous AI agents aren’t being built. Beyond the protein folding problem however, to a large extent addressed by AlphaFold, there still aren’t an abundance of positive use cases where you can clearly highlight major advances brough about by AI.\nRelated to this, another critical thread of the conference was around baselines.\nNo, not the kind of basslines that you hear spilling out of Liverpool’s late night bars. Nor the kind of baseline from which Carlos Alcaraz plays his magical dropshots.\nThe kind of baseline I’m referring to allows benchmarking of our AI models. As highlighted by Charlotte Deane, we need to think carefully about the baselines we use. Not only do we need to use random baselines but also baselines thay essentially replicate what a PhD student could do manually in a lab. This will allow us to quantify the added value of such automation.\nThere’s clearly still a lot of people using knowledge graphs whether it be predicting drug adverse events or identifying new disease genes. Building these graphs often relies on public databases containing curated biomedical information - like for example Uniprot. Amos Bairoch (Swissprot) discussed at length how we need to re-think the funding model for such databases and bio-curation activities. It’s easy to forget just how critical these databases are to modern day computational biology, but also for supplying the knowledge for pre-trained LLMs.",
+    "crumbs": [
+      "Blog",
+      "ISMB ECCB conference musings"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Welcome",
+    "section": "",
+    "text": "My name is Chris and I’m a data scientist, computational biologist and bioinformatician working in London.\nThis webpage is my online CV but I’ll occasionally add some blog posts on topics I find interesting. If anything, it’s just a way for me to keep some notes that I can refer back to.\nHere’s a bar chart summarising my life and career to date:\n\n\n\n\n\n\n\n\n\n\nInterests\n\nSport (tennis, football, running, cycling, golf, rugby)\nPainting (landscapes, animals etc)\nNon-fiction books\n\n# Background\nI grew up on the Wirral, which in case you’ve never heard of it is right about here…\n\n\n\n\nUseful links for creating this website page\nIn case somebody would like to create a similar web page to this, I used Quarto and followed guides here:\n\nGH pages guide here.\nvenv guide here.\n\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
   },
   {
     "objectID": "publications.html",
@@ -51,72 +142,21 @@
     ]
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Welcome",
+    "objectID": "education.html",
+    "href": "education.html",
+    "title": "Education",
     "section": "",
-    "text": "I’m a data scientist, computational biologist and bioinformatician living and working in London.\nHere’s a bar chart summarising my life and career to date:\n\n\n\n\n\n\n\n\n\nI grew up on the Wirral, which in case you’ve never heard of it is right about here…\n\n\n\nUseful links for creating this website page\nIn case somebody would like to create a similar web page to this, I used Quarto and followed guides here:\n\nGH pages guide here.\nvenv guide here.\n\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
-  },
-  {
-    "objectID": "blog_ismb.html",
-    "href": "blog_ismb.html",
-    "title": "ISMB ECCB 2025 musings",
-    "section": "",
-    "text": "And that’s a wrap. My first taste of a European Conference on Computational Biology (ECCB) and definitely won’t be my last.\nMy home(ish) city of Liverpool and 4 days of discussions covering all manner of topics around computational biology. What’s not to like?\nOther than the pack lunches, not a lot! I wasn’t sure what to expect of the conference, but it turned out to be hugely insightful.\nIt can be easy to forget when you’re working in industry in one particular field or therapeutic area that there’s a whole world of innovative science going on out there. So yeah, ECCB was a pretty exciting place to be.\nThe conference itself was far larger than I was expecting. The venue itself contained probably more than 10 rooms with several parallel sessions running basically from 9-6pm each day. You find yourself often tip-toeing into the back of the room, to find that the only available seat is on the front row and you’ve got to take that embaressing walk of shame in front of everyone as the talk goes on.\nNot only was it big, but the conference felt more global than I’d expected. I met countless people from the US, China, South America and Japan, so it was brilliantly international. The people really make these events. Who knows, maybe it was the lure of walking in the footsteps of the Beatles or visiting the home of Liverpool football club that did the trick. It’s also interesting to see how the conference was able to bring together people with diverse skillsets. It definitely feels like the maths and physics nerds are becoming an increasing presence at these kind of events…they’re all wanting to solve the big questions in biology now which is great.\nCertainly the location of the venue is incredible. Entering out the back you’re immediately on the banks of the Mersey watching the ferry bobbing in the distance. The perfect lunchtime feasting spot for computational biologists!\nAnyway, what about the actual science?\nWell the breadth of topics was certainly impressive. We had discussions on public databases and scientific policy making. There were sessions on network biology, gene regulation and new ’omics technologies. We covered protein folding, AI agents, protein ligand binding, fundamental machine learning and much more.\nA few common themes cut across the whole conference though.\nFirstly, AI is here to stay in biology. There is no corner of biology that isn’t being explored by deep learning and for which autonomous AI agents aren’t being built. Beyond the protein folding problem however, to a large extent addressed by AlphaFold, there still aren’t an abundance of positive use cases where you can clearly highlight major advances brough about by AI.\nRelated to this, another critical thread of the conference was around baselines.\nNo, not the kind of basslines that you hear spilling out of Liverpool’s late night bars. Nor the kind of baseline from which Carlos Alcaraz plays his magical dropshots.\nThe kind of baseline I’m referring to allows benchmarking of our AI models. As highlighted by Charlotte Deane, we need to think carefully about the baselines we use. Not only do we need to use random baselines but also baselines thay essentially replicate what a PhD student could do manually in a lab. This will allow us to quantify the added value of such automation.\nThere’s clearly still a lot of people using knowledge graphs whether it be predicting drug adverse events or identifying new disease genes. Building these graphs often relies on public databases containing curated biomedical information - like for example Uniprot. Amos Bairoch (Swissprot) discussed at length how we need to re-think the funding model for such databases and bio-curation activities. It’s easy to forget just how critical these databases are to modern day computational biology, but also for supplying the knowledge for pre-trained LLMs.",
-    "crumbs": [
-      "Blog",
-      "ISMB ECCB conference musings"
-    ]
-  },
-  {
-    "objectID": "experience.html",
-    "href": "experience.html",
-    "title": "Professional Experience",
-    "section": "",
-    "text": "2023 - Present\nSenior Computational Biologist\nOwkin\nBuilding end-to-end machine learning applications for target discovery, drug positioning and biomarker ID.\nDeveloped clinical and multi-omics data processing pipelines that have been applied to data generated from more than 2500 patients.\n\n\n2021 - 2023\nBioinformatics Data Scientist\nBenevolent AI\nTechnical lead on multiple drug discovery programs leading the data ingestion, processing and modelling strategy for novel disease mechanism discovery and target identification.\n\n\n2017 - 2021\nBioinformatics and Cancer Immunology PhD student\nCancer Research UK\nAnalysed multi-omics oncology datasets to elucidate cancer inflammation and immune evasion mechanisms, as well as discovery biomarkers of response to immune checkpoint inhibitors.\n\n\n2017 - 2021\nScientific Leader\nManchester Access Programme\nManaged, tutored and guided A-level students through scientific research projects.\n\n\n2015 - 2017\nEarly Clinical Development Scientist and In Vitro/Vivo Biologist\nAstraZeneca\nPlanned and executed in vitro and in vivo studies to facilitate oncology drug discovery. Managed externally sponsored phase I/II basket trials as a member of the early clinical development team. Provided competitor intelligence/ disease landscaping.\n\n\n2013 - 2014\nIndustrial Placement Student\nGlaxoSmithKline\nPerformed compound screening in B cell and dendritic cell assays contributing towards the candidate selection data packages for autoimmune diseases.\n\n\n2011 - 2015\nBiomedical Science Student, First Class Degree\nUniversity of Sheffield\nPhysiology, cell biology, developmental biology, neuroscience, anatomy, biochemistry and more.\n\n\n2004 - 2011\nSchool Student\nWirral Grammer School\nMaths, Biology, Chemistry",
+    "text": "Courses\n\n2025\nDeep Learning Specialization\nCoursera\n\n\n2025\nAgents\nHugging Face\n\n\n2023\nMachine Learning Specialization\nCoursera\n\n\n\nFormal Education\n\n2017 - 2021\nPhD in Bioinformatics and Computational Biology\nUniversity of Manchester\n- transcriptomics - genomics - single cell ’omics - multiplex immunofluorescence - prognostic modelling - machine learning - basic immunology - cancer immunotherapy - inflammation - cell culture and genetic knockout - spatial ’omics and image analysis\n\n\n2019\nDistinction in Intro to Bioinformatics Masters module\nUniversity of Manchester\n- sequence alignment - data processing - ’omics technologies\n\n\n2011 - 2015\nFirst class degree in Biomedical Science with Industrial Experience\nUniversity of Sheffield\n- pharmacology - cell biology - physiology - developmental biology - neuroscience - anatomy - pathology\n\n\n2004-2011\nA levels\nSchool\n- A* Maths - A Biology - A Chemistry",
     "crumbs": [
       "CV",
-      "Experience"
+      "Education"
     ]
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "A bit about me…",
+    "objectID": "blog_building_site.html",
+    "href": "blog_building_site.html",
+    "title": "Building a personal website for your CV",
     "section": "",
-    "text": "Background and career so far\nI’m a computational biology, data scientist and bioinformatician living and working in London.\nI grew up on the Wirral, which in case you’ve never heard of it is right about here…\n\n\nHere’s a bar chart summarising my life and career to date:\n\n\nCode\nimport seaborn as sns\nimport matplotlib.pyplot as plt\nimport pandas as pd\n\n# create data\nlife = pd.DataFrame({\n    'life_stage': [\"Growing up\", \"Sheffield University\", \"GSK industrial placement\", \"Sheffield University part 2\", \"AstraZeneca Alderley Edge\", \"AstraZeneca Cambridge\", \"Manchester University/CRUK PhD\", \"Benevolent AI\", \"Owkin\"],\n    'role': [\n        \"Messing around\", \"Biomedical science\", \"In vitro immunology\", \"Biomedical science\", \"Animal technician\", \"In vitro oncology & early clinical development\", \"Computational biologist & bioinformatician in cancer immunology\", \"Data science\", \"Data science\"\n    ],\n    'months': [(18*12)+2, 2*12, 1*12,1*12, 8, 2*8, (3*12)+4, 20, 20],\n    'me': ['My life']*9\n})\n\nlife.loc[:, 'years'] = life['months'] / 12\nlife['life_stage'] = pd.Categorical(life['life_stage'], categories=[\"Growing up\", \"Sheffield University\", \"GSK industrial placement\", \"Sheffield University part 2\", \"AstraZeneca Alderley Edge\", \"AstraZeneca Cambridge\", \"Manchester University/CRUK PhD\", \"Benevolent AI\", \"Owkin\"], ordered=True)\n\n# Create the plot\nimport pandas as pd\nimport matplotlib.pyplot as plt\n\n# Sample Data (Replace this with your actual DataFrame)\n# Assuming 'life' already exists and has columns 'months', 'me', and 'life_stage'\nlife['years'] = life['months'] / 12  # Convert months to years\n\n# Pivot data for stacking\nlife_pivot = life.pivot_table(index='me', columns='life_stage', values='years', aggfunc='sum')\n\n# Plot stacked bar chart\nfig, ax = plt.subplots(figsize=(8, 6))\nlife_pivot.plot(kind='barh', stacked=True, ax=ax, edgecolor='black')\n\n# Customizing the plot to match ggplot2\nax.set_xlabel('Years')\nax.set_ylabel('')\nax.set_xlim(0, 32)\nax.set_xticks([0, 10, 20, 30])\nax.invert_yaxis()  # Flip to match coord_flip()\n\n# Remove spines for minimal theme\nax.spines['top'].set_visible(False)\nax.spines['right'].set_visible(False)\nax.spines['left'].set_visible(False)\n\n# Add legend and grid\nax.legend(title='Life Stage', bbox_to_anchor=(1, 1))\nax.grid(axis='x', linestyle='--', alpha=0.7)\n\nplt.tight_layout()\nplt.show()\n\n\n/var/folders/p1/91bjgvms5h3c03fp_lkjdsyw0000gp/T/ipykernel_38230/954472691.py:27: FutureWarning: The default value of observed=False is deprecated and will change to observed=True in a future version of pandas. Specify observed=False to silence this warning and retain the current behavior\n  life_pivot = life.pivot_table(index='me', columns='life_stage', values='years', aggfunc='sum')\n\n\n\n\n\n\n\n\n\n\n\nUseful links for creating this website page\n\nGH pages guide here.\nvenv guide here. To learn more about Quarto websites visit https://quarto.org/docs/websites."
-  },
-  {
-    "objectID": "skills.html",
-    "href": "skills.html",
-    "title": "Skills",
-    "section": "",
-    "text": "Python (advanced) - sklearn, pytorch, tensorflow, scipy, numpy, pandas, RDkit\nR (advanced) - tidyverse\nbash\ngit\nDocker\nSagemaker\nRedshift\nS3\nPostgresSQL\nCypher\nDatabricks\nNeo4J\nKubeflow\nShiny",
-    "crumbs": [
-      "CV",
-      "Skills"
-    ]
-  },
-  {
-    "objectID": "skills.html#technical",
-    "href": "skills.html#technical",
-    "title": "Skills",
-    "section": "",
-    "text": "Python (advanced) - sklearn, pytorch, tensorflow, scipy, numpy, pandas, RDkit\nR (advanced) - tidyverse\nbash\ngit\nDocker\nSagemaker\nRedshift\nS3\nPostgresSQL\nCypher\nDatabricks\nNeo4J\nKubeflow\nShiny",
-    "crumbs": [
-      "CV",
-      "Skills"
-    ]
-  },
-  {
-    "objectID": "skills.html#leadership",
-    "href": "skills.html#leadership",
-    "title": "Skills",
-    "section": "Leadership",
-    "text": "Leadership\n\nLeading the construction of end-to-end ML solutions for drug discovery.\nTech lead on 2 internal target discovery programmes at Benevolent AI, and 1 external programme with AstraZeneca.\nLine managed 2 interns\n\none project on multi’omics integration with Benevolent AI.\none project on machine learning for drug positioning at Owkin.\n\nManaged 12 successful A level student projects across 4 years with Manchester Access Programme.\n\n## Teamwork\n\nTrack record of connecting teams internally and fostering external relationships in academia and industry.",
-    "crumbs": [
-      "CV",
-      "Skills"
-    ]
+    "text": "The internet is not short of these kind of blog posts."
   }
 ]

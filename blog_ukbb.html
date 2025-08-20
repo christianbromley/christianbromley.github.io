@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Welcome – Christian Bromley</title>
+<title>500,000 whole genomes! – Christian Bromley</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -177,22 +177,15 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#interests" id="toc-interests" class="nav-link active" data-scroll-target="#interests">Interests</a></li>
-  <li><a href="#useful-links-for-creating-this-website-page" id="toc-useful-links-for-creating-this-website-page" class="nav-link" data-scroll-target="#useful-links-for-creating-this-website-page">Useful links for creating this website page</a></li>
-  </ul>
-</nav>
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Welcome</h1>
+<h1 class="title">500,000 whole genomes!</h1>
 </div>
 
 
@@ -209,41 +202,16 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>My name is Chris and I’m a data scientist, computational biologist and bioinformatician working in London.</p>
-<p>This webpage is my online CV but I’ll occasionally add some blog posts on topics I find interesting. If anything, it’s just a way for me to keep some notes that I can refer back to.</p>
-<p>Here’s a bar chart summarising my life and career to date:</p>
-<div id="7555101b" class="cell" data-execution_count="1">
-<div class="cell-output cell-output-display">
-<div>
-<figure class="figure">
-<p><img src="index_files/figure-html/cell-2-output-1.png" width="757" height="470" class="figure-img"></p>
-</figure>
-</div>
-</div>
-</div>
-<section id="interests" class="level1">
-<h1>Interests</h1>
-<ul>
-<li>Sport (tennis, football, running, cycling, golf, rugby)</li>
-<li>Painting (landscapes, animals etc)</li>
-<li>Non-fiction books</li>
-</ul>
-<p>#&nbsp;Background</p>
-<p>I grew up on the Wirral, which in case you’ve never heard of it is right about here…</p>
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d152483.47756872556!2d-3.2234090053387896!3d53.33333247961921!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487ad819e78b6473%3A0x5855af619d4d5206!2sWirral%20Peninsula!5e0!3m2!1sen!2suk!4v1612130774206!5m2!1sen!2suk" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0">
-</iframe>
-</section>
-<section id="useful-links-for-creating-this-website-page" class="level1">
-<h1>Useful links for creating this website page</h1>
-<p>In case somebody would like to create a similar web page to this, I used Quarto and followed guides here:</p>
-<ul>
-<li>GH pages guide <a href="https://quarto.org/docs/publishing/github-pages.html">here</a>.</li>
-<li>venv guide <a href="https://quarto.org/docs/projects/virtual-environments.html">here</a>.</li>
-</ul>
-<p>To learn more about Quarto websites visit <a href="https://quarto.org/docs/websites" class="uri">https://quarto.org/docs/websites</a>.</p>
+<p>A new publication from UKBB is out <a href="https://www.nature.com/articles/s41586-025-09272-9">here</a>.</p>
+<p><img src="files/ukbb_wgs_paper.jpg" style="width:50%"></p>
+<p>It’s quite amazing to see an analysis of ~500,000 whole genome sequences. I’m super interested to dig into this paper because I’m still a big believer that the next frontier in target discovery must be in revealing the secrets of the non-coding genome. I suppose with a dataset like this we can start to do just that.</p>
+<p>They called &gt;1 billion SNPs, &gt;100 million indels across three different tools. The numbers involved here are pretty mind boggling.</p>
+<p>These bioinformaticians definitely need a pat on the back - not to mention the data engineers and everyone else involved.</p>
+<p>They found &gt;30,000 GWAS hits for 763 binary and 71 quantitative phenotypes across the different ancentry subgroups. There was a 12% increase compared to SNP arrays, which I’m sure justifies the added cost! It’s kind of tantalising to think that there’s 30,000 potential disease-relevant genetic associations. The question then becomes how on earth do you prioritise what to study in more detail - what to validate in silico and in the lab? Clearly, this is the kind of job aritifical intelligence could have a big impact in.</p>
+<p>They highlight a small analysis of so-called human “knockouts” where there are homozygous loss-of-function variants in the protein coding sequence. These are particularly fascinating to study from the perspective of drug discovery as you can begin to analyse the predicted effects of pharmacological inhibition of a particular gene. Although homozygous gene deletion throughout life, as per these human knockouts, does not quite equate to drug modulation later in life within the context of a disease. Nevertheless, these human “knockouts” could be particularly informative with regards to safety - which genes can we essentially live a healthy life without? The most famous dataset of human “knockouts” was of course the <a href="https://www.science.org/doi/10.1126/science.aac8624">Born in Bradford study</a>. That was one of those papers that you read and it makes you say wow!</p>
+<p>The UKBB paper goes on to carry out a few other distinct analyses such as one focussed on gene-phenotype associations from rare variants in UTRs. Really, the paper only seems to touch the surface of what is possible with this kind of dataset. I’m sure many more papers will follow on from this.</p>
 
 
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

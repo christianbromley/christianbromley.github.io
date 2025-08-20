@@ -180,7 +180,14 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#technical" id="toc-technical" class="nav-link active" data-scroll-target="#technical">Technical</a></li>
+  <li><a href="#data-modalities" id="toc-data-modalities" class="nav-link active" data-scroll-target="#data-modalities">Data Modalities</a></li>
+  <li><a href="#technical" id="toc-technical" class="nav-link" data-scroll-target="#technical">Technical</a></li>
+  <li><a href="#therapy-areas" id="toc-therapy-areas" class="nav-link" data-scroll-target="#therapy-areas">Therapy Areas</a>
+  <ul class="collapse">
+  <li><a href="#oncology" id="toc-oncology" class="nav-link" data-scroll-target="#oncology">Oncology</a></li>
+  <li><a href="#immune-related-disorders" id="toc-immune-related-disorders" class="nav-link" data-scroll-target="#immune-related-disorders">Immune-related disorders</a></li>
+  </ul></li>
+  <li><a href="#muscular-disorders" id="toc-muscular-disorders" class="nav-link" data-scroll-target="#muscular-disorders">Muscular disorders</a></li>
   <li><a href="#leadership" id="toc-leadership" class="nav-link" data-scroll-target="#leadership">Leadership</a></li>
   </ul>
 </nav>
@@ -207,6 +214,86 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<section id="data-modalities" class="level2">
+<h2 class="anchored" data-anchor-id="data-modalities">Data Modalities</h2>
+<ul>
+<li>Electronic health records and clinical data
+<ul>
+<li>Clinical trials (BAI)</li>
+<li>UK Biobank (BAI)</li>
+<li>Retrospective studies (Owkin - MOSAIC)</li>
+</ul></li>
+<li>Knowledge graphs and text (BAI)</li>
+<li>Bulk RNAseq
+<ul>
+<li>Raw processing and QC (Owkin - MOSAIC)
+<ul>
+<li>STAR/ STAR fusion</li>
+<li>Kallisto</li>
+<li>Arriba</li>
+<li>FastQC/ MultiQC</li>
+</ul></li>
+<li>Downstream applications (PhD)
+<ul>
+<li>DGE analysis</li>
+<li>GSEA/ ORA</li>
+<li>Deconvolution</li>
+<li>Motif enrichment</li>
+<li>Dimensionality reduction</li>
+<li>Feature selection</li>
+<li>Classification and regression tasks</li>
+<li>Unsupervised modelling</li>
+<li>Co-expressing network modelling</li>
+</ul></li>
+</ul></li>
+<li>Whole exome sequencing
+<ul>
+<li>Processing data QC and integrated QC pipeline building (Owkin - MOSAIC)</li>
+<li>Downstream applications
+<ul>
+<li>SNV/Indel variant calls (PhD - cell line KRAS mutants)</li>
+<li>Tumor purity</li>
+<li>ML applications (PhD, BAI, Owkin)</li>
+</ul></li>
+</ul></li>
+<li>Single cell RNA sequencing
+<ul>
+<li>QC pipeline (Owkin - MOSAIC)</li>
+<li>Cell annotation</li>
+<li>Doublet detection</li>
+<li>Data integration</li>
+<li>Cell communication analysis</li>
+<li>Genetics integrated analysis</li>
+</ul></li>
+<li>Spatial transcriptomics
+<ul>
+<li>QC pipeline (Owkin - MOSAIC)</li>
+<li>Patient-matched scRNAseq data integration</li>
+<li>Target ID</li>
+<li>Biomarker identification</li>
+<li>Network analysis</li>
+<li>Feature extraction and selection</li>
+<li>Spatial statistics</li>
+<li>Pathology analysis integration</li>
+</ul></li>
+<li>Mass spec proteomics
+<ul>
+<li>Downstream analysis (BAI, Owkin)
+<ul>
+<li>Coexpression network</li>
+<li>mRNA to protein correlation</li>
+</ul></li>
+</ul></li>
+<li>Multipliex IF
+<ul>
+<li>Computational pathology assessment using HALO (PhD)</li>
+</ul></li>
+<li>Histology
+<ul>
+<li>H&amp;E/ IHC QC (Owkin)</li>
+</ul></li>
+</ul>
+</section>
 <section id="technical" class="level2">
 <h2 class="anchored" data-anchor-id="technical">Technical</h2>
 <ul>
@@ -219,12 +306,29 @@ ul.task-list li input[type="checkbox"] {
 <li>Redshift</li>
 <li>S3</li>
 <li>PostgresSQL</li>
-<li>Cypher</li>
+<li>Cypher<br>
+</li>
 <li>Databricks</li>
 <li>Neo4J</li>
-<li>Kubeflow</li>
+<li>Kubeflow<br>
+</li>
 <li>Shiny</li>
 </ul>
+</section>
+<section id="therapy-areas" class="level2">
+<h2 class="anchored" data-anchor-id="therapy-areas">Therapy Areas</h2>
+<section id="oncology" class="level3">
+<h3 class="anchored" data-anchor-id="oncology">Oncology</h3>
+<p>This is my main area of expertise including my most recent work at Owkin where I have been learning how to develop advanced computational methods for target ID that retain explainability. I’m fascinated by the intersection of cancer evolution, inflammation and immunity. Indeed, for my PhD I studied the interplay of pro- and anti-tumourigenic inflammatory phenotypes in cancer, focussing on translating the findings from our basic immunology lab into patient multi-modal ’omics data. We were particularly interested in biomarker development at the time, and indeed I’ve continued learning about patient stratification approaches from within industry.</p>
+</section>
+<section id="immune-related-disorders" class="level3">
+<h3 class="anchored" data-anchor-id="immune-related-disorders">Immune-related disorders</h3>
+<p>Working in a my PhD lab for four years gave me a solid grounding in immunology. We attended dendritic cell conferences in Lisbon and studied the interaction of these cells with myriad other cell types in reductive, in vitro systems as well as in whole organisms. In most diseases, the immune system has to some extent gone awry, and I was fortunate enough to perform a thorough, in silico mechanistic deep dive into Systemic Lupus Erthymatosus as part of the BAI-AstraZeneca collaboration. This provided me with the chance to learn from real disease experts and learn not only from clinicians that treat patients, but also from the scientists establishing high throughput screens in the lab. Not only did it teach me a great deal about how to propel drug development programs forwards, but it also stimulated by interest in the biology underpinning autoimmune diseases.</p>
+</section>
+</section>
+<section id="muscular-disorders" class="level2">
+<h2 class="anchored" data-anchor-id="muscular-disorders">Muscular disorders</h2>
+<p>A long time ago during my degree I worked with yeast, creating point mutations in genes involved in movement and monitoring changes in yeast phenotypes. Fast forward maybe 8 years and I had the chance to work on a therapeutic program for a muscle-wasting disorder. Given that it was a disease of old age, it was fascinating to consider how co-morbidities might influence the disease course. This was my first exposure to the UK Biobank as a tool for drug discovery. I learnt about how to design GWAS and PheWAS experiments. Ever since, I’ve kept an eye on the field and on publications arising from UKBB.</p>
 </section>
 <section id="leadership" class="level2">
 <h2 class="anchored" data-anchor-id="leadership">Leadership</h2>
@@ -241,6 +345,7 @@ ul.task-list li input[type="checkbox"] {
 <p>##&nbsp;Teamwork</p>
 <ul>
 <li>Track record of connecting teams internally and fostering external relationships in academia and industry.</li>
+<li>I’m passionate about team science - the most enjoyable projects are those when you get to work in a close knit team with complementary skillsets where you have a clear mission.</li>
 </ul>
 
 
