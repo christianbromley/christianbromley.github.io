@@ -72,7 +72,7 @@ plt.show()
 * Painting (landscapes, animals etc)
 * Non-fiction books 
 
-# Background
+# Background
 
 I grew up on the Wirral, which in case you've never heard of it is right about here...
 

@@ -23,6 +23,8 @@ website:
         contents:
         - href: blog_ismb.qmd
           text: ISMB ECCB conference musings
+        - href: blog_ukbb.qmd
+          text: 500,000 whole genomes
     tools:
       - icon: linkedin
         href: https://www.linkedin.com/in/christian-bromley-8ab99475/
